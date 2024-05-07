@@ -18,26 +18,13 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Welcome.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "bd21d360bd645fb1",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
                     "file": "Blender fbx导出设置.md",
                     "mode": "source",
                     "source": false
                   }
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           },
           {
             "id": "b353f7555a705807",
@@ -183,16 +170,21 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "bd21d360bd645fb1",
+  "active": "fe7e73126a5fb006",
   "lastOpenFiles": [
-    "未命名看板.md",
+    "kanban.md",
+    "Blender fbx导出设置.md",
+    "未命名 1.md",
+    "未命名.md",
+    "未命名 1 1.md",
+    "未命名",
+    "2024-05-07.md",
+    "未命名.canvas",
+    "Welcome.md",
     "Excalidraw/Drawing 2024-05-07 23.02.48.excalidraw.md",
     "bbb.md",
-    "未命名.md",
     "Excalidraw",
-    "Welcome.md",
     "# 1111.md",
-    "Blender fbx导出设置.md",
     "HowellNotion"
   ]
 }
