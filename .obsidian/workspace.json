@@ -23,33 +23,8 @@
                     "source": false
                   }
                 }
-              },
-              {
-                "id": "13ec5c7e3593d039",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "测试git.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "e385178b912d514b",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "AAABBB.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
               }
-            ],
-            "currentTab": 2
+            ]
           },
           {
             "id": "b353f7555a705807",
@@ -133,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AAABBB.md",
+                "file": "Blender fbx导出设置.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AAABBB.md",
+                "file": "Blender fbx导出设置.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AAABBB.md"
+                "file": "Blender fbx导出设置.md"
               }
             }
           }
@@ -195,7 +170,7 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "70260ebc01997464",
+  "active": "4d647abf8d4114e7",
   "lastOpenFiles": [
     "测试git.md",
     "AAABBB.md",
