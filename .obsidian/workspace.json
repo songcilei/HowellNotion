@@ -10,7 +10,7 @@
           {
             "id": "a2c754b4f5a812c0",
             "type": "tabs",
-            "dimension": 45.0441609421001,
+            "dimension": 42.785714285714285,
             "children": [
               {
                 "id": "fe7e73126a5fb006",
@@ -18,7 +18,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Blender fbx导出设置.md",
+                    "file": "Timeline 结构分析.md",
                     "mode": "source",
                     "source": false
                   }
@@ -29,7 +29,7 @@
           {
             "id": "b353f7555a705807",
             "type": "tabs",
-            "dimension": 54.9558390578999,
+            "dimension": 57.214285714285715,
             "children": [
               {
                 "id": "70260ebc01997464",
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Blender fbx导出设置.md",
+                "file": "Timeline 结构分析.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Blender fbx导出设置.md",
+                "file": "Timeline 结构分析.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Blender fbx导出设置.md"
+                "file": "Timeline 结构分析.md"
               }
             }
           }
@@ -170,21 +170,26 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "4d647abf8d4114e7",
+  "active": "fe7e73126a5fb006",
   "lastOpenFiles": [
+    "Welcome.md",
+    "Timeline 结构分析.md",
+    "Shader整理.canvas",
+    "Shader 整理.md",
+    "Excalidraw/Drawing 2024-05-15 15.29.34.excalidraw.md",
+    "Excalidraw",
+    "kanban.md",
+    "备忘录.md",
+    "Blender fbx导出设置.md",
     "测试git.md",
     "AAABBB.md",
-    "Blender fbx导出设置.md",
-    "kanban.md",
     "未命名 1.md",
     "未命名 1 1.md",
     "未命名",
     "2024-05-07.md",
     "未命名.canvas",
-    "Welcome.md",
     "Excalidraw/Drawing 2024-05-07 23.02.48.excalidraw.md",
     "bbb.md",
-    "Excalidraw",
     "# 1111.md",
     "HowellNotion"
   ]
