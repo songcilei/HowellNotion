@@ -18,3 +18,7 @@ MBREffectCfg.xlsx
 对搜索道的表进行
 Process Excel
 然后运行游戏即可
+
+
+
+3027  钻地=》出来的位置 不一致
