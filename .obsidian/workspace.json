@@ -26,9 +26,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4f68cd53755bd11a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "mac test.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -94,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Win表.md",
+                "file": "mac test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Win表.md",
+                "file": "mac test.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Win表.md"
+                "file": "mac test.md"
               }
             }
           }
@@ -156,14 +168,15 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "3a1e8afb8270d5e7",
+  "active": "4f68cd53755bd11a",
   "lastOpenFiles": [
+    "Win表.md",
+    "mac test.md",
     "Shader整理.canvas",
     "Pasted image 20240519170255.png",
     "Pasted image 20240519170221.png",
     "Pasted image 20240519170145.png",
     "结构.md",
-    "Win表.md",
     "Excalidraw/Drawing 2024-05-15 15.29.34.excalidraw.md",
     "093ef7a1-401e-40e8-8d99-6ce524355e12.jpeg",
     "19190fc3-d53e-4394-b5e8-71696d4c1c0c.jpeg",
