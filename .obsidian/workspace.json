@@ -10,7 +10,7 @@
           {
             "id": "a2c754b4f5a812c0",
             "type": "tabs",
-            "dimension": 45.0441609421001,
+            "dimension": 63.26732673267327,
             "children": [
               {
                 "id": "fe7e73126a5fb006",
@@ -29,7 +29,7 @@
           {
             "id": "b353f7555a705807",
             "type": "tabs",
-            "dimension": 54.9558390578999,
+            "dimension": 36.73267326732673,
             "children": [
               {
                 "id": "70260ebc01997464",
@@ -172,6 +172,9 @@
   },
   "active": "fe7e73126a5fb006",
   "lastOpenFiles": [
+    "Pasted image 20240519170255.png",
+    "Pasted image 20240519170221.png",
+    "Pasted image 20240519170145.png",
     "Excalidraw/Drawing 2024-05-15 15.29.34.excalidraw.md",
     "结构.md",
     "093ef7a1-401e-40e8-8d99-6ce524355e12.jpeg",
