@@ -1,0 +1,25 @@
+{
+	"nodes":[
+		{"id":"1421ba258cf43a24","type":"group","x":-169,"y":-180,"width":290,"height":540,"label":"runtime"},
+		{"id":"286847a36c6c4731","type":"text","text":"GrassBoundTool","x":-149,"y":-140,"width":250,"height":60},
+		{"id":"8518842bf998d9ca","type":"text","text":"GrassRtDraw(core)","x":-149,"y":40,"width":250,"height":60},
+		{"id":"f66059a9917a1ee7","type":"text","text":"CreateGrassStaticValue","x":-149,"y":280,"width":250,"height":60},
+		{"id":"baf438937af01fb8","x":-740,"y":-137,"width":250,"height":60,"type":"text","text":"GrassMaterial"},
+		{"id":"8cc255cd679f48d9","x":-740,"y":40,"width":250,"height":60,"type":"text","text":"tex2D"},
+		{"id":"ec3e7a0dd8e26c93","type":"text","text":"mGridDataUtil网格数据类\n","x":-440,"y":40,"width":250,"height":60},
+		{"id":"8cac7ea372e67508","type":"text","text":"CreateGrassStaticObject\n草分布和LOD","x":560,"y":-140,"width":250,"height":60},
+		{"id":"dc83050ac0528ab9","x":240,"y":40,"width":250,"height":60,"type":"text","text":"EffectMgr特效管理"}
+	],
+	"edges":[
+		{"id":"4ab921049d9f8f94","fromNode":"286847a36c6c4731","fromSide":"right","toNode":"8cac7ea372e67508","toSide":"left","label":"创建草分布数据"},
+		{"id":"49646cfd396c4b73","fromNode":"8cac7ea372e67508","fromSide":"bottom","toNode":"f66059a9917a1ee7","toSide":"right"},
+		{"id":"9030d5df2a862815","fromNode":"f66059a9917a1ee7","fromSide":"top","toNode":"8518842bf998d9ca","toSide":"bottom"},
+		{"id":"f80ebef464f77131","fromNode":"286847a36c6c4731","fromSide":"bottom","toNode":"8518842bf998d9ca","toSide":"top"},
+		{"id":"97997a7ad250fb47","fromNode":"8cc255cd679f48d9","fromSide":"top","toNode":"baf438937af01fb8","toSide":"bottom"},
+		{"id":"b512ccf85a89e3a9","fromNode":"f66059a9917a1ee7","fromSide":"top","toNode":"8cc255cd679f48d9","toSide":"bottom"},
+		{"id":"8f189cea7e72bb5f","fromNode":"8518842bf998d9ca","fromSide":"left","toNode":"ec3e7a0dd8e26c93","toSide":"right"},
+		{"id":"7f4db623620d1adc","fromNode":"ec3e7a0dd8e26c93","fromSide":"left","toNode":"8cc255cd679f48d9","toSide":"right"},
+		{"id":"233fc2f071669765","fromNode":"286847a36c6c4731","fromSide":"left","toNode":"ec3e7a0dd8e26c93","toSide":"top","label":"面板参数"},
+		{"id":"2676c3e1cabb29c6","fromNode":"f66059a9917a1ee7","fromSide":"top","toNode":"ec3e7a0dd8e26c93","toSide":"bottom"}
+	]
+}
