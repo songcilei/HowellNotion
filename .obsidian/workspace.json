@@ -28,11 +28,14 @@
                 "id": "aa1e0b2511f81fd3",
                 "type": "leaf",
                 "state": {
-                  "type": "markdown",
+                  "type": "canvas",
                   "state": {
-                    "file": "树 种类.md",
-                    "mode": "source",
-                    "source": false
+                    "file": "未命名.canvas",
+                    "viewState": {
+                      "x": 0,
+                      "y": 0,
+                      "zoom": 0
+                    }
                   }
                 }
               }
@@ -121,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "树 种类.md",
+                "file": "未命名.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "树 种类.md",
+                "file": "未命名.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "树 种类.md"
+                "file": "未命名.canvas"
               }
             }
           }
@@ -185,10 +188,12 @@
   },
   "active": "aa1e0b2511f81fd3",
   "lastOpenFiles": [
+    "未命名.md",
+    "未命名.canvas",
+    "树 种类.md",
     "19190fc3-d53e-4394-b5e8-71696d4c1c0c.jpeg",
     "093ef7a1-401e-40e8-8d99-6ce524355e12.jpeg",
     "Timeline 结构分析.md",
-    "树 种类.md",
     "Welcome.md",
     "Shader整理.canvas",
     "Shader 整理.md",
@@ -203,7 +208,6 @@
     "未命名 1 1.md",
     "未命名",
     "2024-05-07.md",
-    "未命名.canvas",
     "Excalidraw/Drawing 2024-05-07 23.02.48.excalidraw.md",
     "bbb.md",
     "# 1111.md",
