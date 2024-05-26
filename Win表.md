@@ -50,7 +50,7 @@ Process Excel
 
 
 
-
+MBRAIThrowStoneSkill.class
 SetBaseInfo  类内的
 
 ParseSkillParamInt(0,out m_BulletId);  
