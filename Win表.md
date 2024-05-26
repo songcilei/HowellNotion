@@ -47,3 +47,20 @@ Process Excel
 3、boss会冲出范围框                                             **不用管**
 4、技能持续时间很长 动作很快 无法调整             不用管
 5、动作和前冲不一致 ？？？                                 不用管
+
+
+
+
+SetBaseInfo  类内的
+
+ParseSkillParamInt(0,out m_BulletId);  
+ParseSkillParamInt(1, out m_WarningEffectId);  
+对应配置参数
+
+if (m_WarningEffectId > 0)  当有id的时 进入
+AISkillItem.totalTime[1] 代表时长的二哥参数
+
+enter 
+Update
+
+exis
