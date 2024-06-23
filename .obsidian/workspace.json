@@ -26,9 +26,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b153237939360c9c",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.3"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -156,7 +166,7 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "3a1e8afb8270d5e7",
+  "active": "b153237939360c9c",
   "lastOpenFiles": [
     "Pasted image 20240519170145.png",
     "Pasted image 20240519170255.png",
