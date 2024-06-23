@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"eadb75e85719ce53","x":-280,"y":-380,"width":250,"height":60,"type":"text","text":"CustomRenderPipelineAsset Asset类"},
+		{"id":"27753aaec31a42f4","x":-280,"y":-180,"width":250,"height":60,"type":"text","text":"CustomRenderPipelineAsset  主题逻辑类"},
+		{"id":"56aaddfc5aa288d3","x":-280,"y":0,"width":250,"height":60,"type":"text","text":"CameraRender  主体Pass类"},
+		{"id":"6751486f8a42a0e5","x":-280,"y":180,"width":250,"height":60,"type":"text","text":"CameraRender.Editor  辅助Pass类"}
+	],
+	"edges":[
+		{"id":"9db853532c7360da","fromNode":"eadb75e85719ce53","fromSide":"bottom","toNode":"27753aaec31a42f4","toSide":"top"},
+		{"id":"aaede8acd2c3b3ce","fromNode":"27753aaec31a42f4","fromSide":"bottom","toNode":"56aaddfc5aa288d3","toSide":"top"},
+		{"id":"10e91183de113933","fromNode":"6751486f8a42a0e5","fromSide":"top","toNode":"56aaddfc5aa288d3","toSide":"bottom"}
+	]
+}
