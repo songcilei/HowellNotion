@@ -23,15 +23,25 @@
               "state": {
                 "file": "未命名.canvas",
                 "viewState": {
-                  "x": -155,
-                  "y": -70,
+                  "x": -189.41000000000008,
+                  "y": -71.86000000000004,
                   "zoom": 0
                 }
               }
             }
+          },
+          {
+            "id": "e3e81e5acdc95db6",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.5"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -159,7 +169,7 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "3a1e8afb8270d5e7",
+  "active": "e3e81e5acdc95db6",
   "lastOpenFiles": [
     "Win表.md",
     "未命名.canvas",
