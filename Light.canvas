@@ -13,8 +13,8 @@
 		{"id":"1d0a51840b8a908b","x":1320,"y":30,"width":340,"height":60,"color":"1","type":"text","text":"SetRenderTarget=>ShadowAtlasRT"},
 		{"id":"fdcdedc995ba375c","x":1320,"y":121,"width":250,"height":60,"color":"1","type":"text","text":"ClearRenderTarget()"},
 		{"id":"bd0dc32cc8a3334a","x":1322,"y":233,"width":250,"height":60,"color":"1","type":"text","text":"ExecuteBuffer()"},
-		{"id":"eead6679fcb4616f","x":1337,"y":427,"width":250,"height":60,"type":"text","text":"计算单个buffer tile大小"},
-		{"id":"63b91ecc8d59178f","x":1337,"y":620,"width":303,"height":60,"type":"text","text":"RenderDirectionalShadows（）"}
+		{"id":"eead6679fcb4616f","x":1337,"y":427,"width":250,"height":60,"color":"1","type":"text","text":"计算单个buffer tile大小"},
+		{"id":"63b91ecc8d59178f","x":1337,"y":620,"width":303,"height":60,"color":"1","type":"text","text":"RenderDirectionalShadows（）"}
 	],
 	"edges":[
 		{"id":"3551dfc7a114dc81","fromNode":"c4f4d941d177a262","fromSide":"right","toNode":"9f20f3b42c9018d9","toSide":"left"},
