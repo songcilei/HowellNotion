@@ -1,20 +1,24 @@
 {
 	"nodes":[
-		{"id":"83bb9c15faac08a3","x":1300,"y":-100,"width":380,"height":413,"type":"group","label":"设置状态"},
+		{"id":"d54e8ae8e96251c8","type":"group","x":1300,"y":560,"width":1180,"height":580,"label":"foreach Light Count"},
+		{"id":"ee9a852f509370e8","type":"group","x":1781,"y":684,"width":659,"height":400,"label":"foreach cascadeCount"},
+		{"id":"83bb9c15faac08a3","type":"group","x":1300,"y":-100,"width":380,"height":413,"label":"设置状态"},
 		{"id":"8888ff7c37994787","type":"text","text":"shadow.Setup()","x":535,"y":-280,"width":250,"height":60,"color":"1"},
 		{"id":"8a64054c6f058f42","type":"text","text":"SetupLights()","x":535,"y":-161,"width":250,"height":53,"color":"6"},
 		{"id":"0015fa217338065f","type":"text","text":"从CullResults获取lights并发送到各个属性","x":900,"y":-164,"width":250,"height":60,"color":"6"},
 		{"id":"90bdbbcbfa15f72b","type":"text","text":"shadows.Render()","x":535,"y":90,"width":250,"height":60,"color":"1"},
-		{"id":"18b0af5d6e455f42","x":900,"y":92,"width":277,"height":58,"color":"1","type":"text","text":"RenderDirectionAlShadows()"},
-		{"id":"3240ed7d21da1bf4","x":1320,"y":-80,"width":250,"height":60,"color":"1","type":"text","text":"CreateShadowAtlasRT"},
-		{"id":"1d0a51840b8a908b","x":1320,"y":30,"width":340,"height":60,"color":"1","type":"text","text":"SetRenderTarget=>ShadowAtlasRT"},
-		{"id":"fdcdedc995ba375c","x":1320,"y":121,"width":250,"height":60,"color":"1","type":"text","text":"ClearRenderTarget()"},
-		{"id":"bd0dc32cc8a3334a","x":1322,"y":233,"width":250,"height":60,"color":"1","type":"text","text":"ExecuteBuffer()"},
-		{"id":"eead6679fcb4616f","x":1337,"y":427,"width":250,"height":60,"color":"1","type":"text","text":"计算单个buffer tile大小"},
-		{"id":"63b91ecc8d59178f","x":1337,"y":620,"width":303,"height":60,"color":"1","type":"text","text":"RenderDirectionalShadows（）"},
+		{"id":"18b0af5d6e455f42","type":"text","text":"RenderDirectionAlShadows()","x":900,"y":92,"width":277,"height":58,"color":"1"},
+		{"id":"3240ed7d21da1bf4","type":"text","text":"CreateShadowAtlasRT","x":1320,"y":-80,"width":250,"height":60,"color":"1"},
+		{"id":"1d0a51840b8a908b","type":"text","text":"SetRenderTarget=>ShadowAtlasRT","x":1320,"y":30,"width":340,"height":60,"color":"1"},
+		{"id":"fdcdedc995ba375c","type":"text","text":"ClearRenderTarget()","x":1320,"y":121,"width":250,"height":60,"color":"1"},
+		{"id":"bd0dc32cc8a3334a","type":"text","text":"ExecuteBuffer()","x":1322,"y":233,"width":250,"height":60,"color":"1"},
+		{"id":"eead6679fcb4616f","type":"text","text":"计算单个buffer tile大小","x":1337,"y":427,"width":250,"height":60,"color":"1"},
 		{"id":"c4f4d941d177a262","type":"text","text":"Lighting","x":-260,"y":-33,"width":250,"height":60,"color":"6"},
 		{"id":"9f20f3b42c9018d9","type":"text","text":"Setup","x":80,"y":-168,"width":250,"height":60,"color":"6"},
-		{"id":"5f551384236c6931","type":"text","text":"Cleanup","x":80,"y":57,"width":250,"height":60,"color":"6"}
+		{"id":"5f551384236c6931","type":"text","text":"Cleanup","x":80,"y":57,"width":250,"height":60,"color":"6"},
+		{"id":"63b91ecc8d59178f","type":"text","text":"RenderDirectionalShadows（）","x":1360,"y":660,"width":303,"height":60,"color":"1"},
+		{"id":"e27f765eb8c14a72","x":1799,"y":720,"width":622,"height":133,"type":"text","text":"cullingResults.ComputeDirectionalShadowMatricesAndCullingPrimitives(  \nlight.visibleLightIndex, i, cascadeCount, ratios, tileSize,  \nlight.nearPlaneOffset, out Matrix4x4 viewMatrix,  \nout Matrix4x4 projectionMatrix, out ShadowSplitData splitData  \n);"},
+		{"id":"0a1c1b276db66699","type":"text","text":"如果index = 0   则设置级联数据 SetCascadeData（）","x":1799,"y":900,"width":250,"height":60}
 	],
 	"edges":[
 		{"id":"3551dfc7a114dc81","fromNode":"c4f4d941d177a262","fromSide":"right","toNode":"9f20f3b42c9018d9","toSide":"left"},
@@ -29,6 +33,8 @@
 		{"id":"2c034fbfc9c0cc69","fromNode":"18b0af5d6e455f42","fromSide":"right","toNode":"fdcdedc995ba375c","toSide":"left"},
 		{"id":"74325b1b235e103e","fromNode":"18b0af5d6e455f42","fromSide":"right","toNode":"bd0dc32cc8a3334a","toSide":"left"},
 		{"id":"97a816d0fea28595","fromNode":"18b0af5d6e455f42","fromSide":"right","toNode":"eead6679fcb4616f","toSide":"left"},
-		{"id":"a6cb6eef1bac9767","fromNode":"18b0af5d6e455f42","fromSide":"right","toNode":"63b91ecc8d59178f","toSide":"left"}
+		{"id":"a6cb6eef1bac9767","fromNode":"18b0af5d6e455f42","fromSide":"right","toNode":"63b91ecc8d59178f","toSide":"left"},
+		{"id":"96e6355c1043b27c","fromNode":"63b91ecc8d59178f","fromSide":"right","toNode":"0a1c1b276db66699","toSide":"left"},
+		{"id":"7685302a3af06b6b","fromNode":"63b91ecc8d59178f","fromSide":"right","toNode":"e27f765eb8c14a72","toSide":"left"}
 	]
 }
