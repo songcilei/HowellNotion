@@ -4,51 +4,38 @@
     "type": "split",
     "children": [
       {
-        "id": "5c2de451686e62ca",
+        "id": "3bcbb0afdfce521e",
         "type": "split",
         "children": [
           {
-            "id": "a2c754b4f5a812c0",
+            "id": "c1dbd1b5aaaf9fdd",
             "type": "tabs",
             "dimension": 85.71428571428571,
             "children": [
               {
-                "id": "fe7e73126a5fb006",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Timeline 结构分析.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "aa1e0b2511f81fd3",
+                "id": "e28d9ae719ee5359",
                 "type": "leaf",
                 "state": {
                   "type": "canvas",
                   "state": {
-                    "file": "未命名.canvas",
+                    "file": "Light.canvas",
                     "viewState": {
-                      "x": 0,
-                      "y": 0,
+                      "x": 1200.3525252340667,
+                      "y": 295.2230503348731,
                       "zoom": 0
                     }
                   }
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           },
           {
-            "id": "b353f7555a705807",
+            "id": "9a7cefecd2263b21",
             "type": "tabs",
             "dimension": 14.285714285714285,
             "children": [
               {
-                "id": "70260ebc01997464",
+                "id": "79613e22503792b2",
                 "type": "leaf",
                 "state": {
                   "type": "mindmap",
@@ -124,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "未命名.canvas",
+                "file": "Light.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "未命名.canvas",
+                "file": "Light.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,16 +151,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "未命名.canvas"
+                "file": "Light.canvas"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -186,27 +173,39 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "aa1e0b2511f81fd3",
+  "active": "e28d9ae719ee5359",
   "lastOpenFiles": [
-    "未命名.md",
+    "未命名 1.canvas",
+    "Blender fbx导出设置.md",
+    "Shader整理.canvas",
+    "Timeline 结构分析.md",
     "未命名.canvas",
+    "结构.md",
+    "备忘录.md",
+    "Win表.md",
+    "Welcome.md",
+    "Light.canvas",
+    "kanban.md",
+    "conflict-files-obsidian-git.md",
+    "Lighting.md",
     "树 种类.md",
+    "未命名 2.canvas",
+    "2024-10-21.md",
+    "未命名/Pasted image 20240519170255.png",
+    "未命名/Pasted image 20240519170145.png",
+    "未命名/Pasted image 20240519170221.png",
+    "未命名",
+    "未命名/c21ebe204673a7898bbc123444f9e100.png",
+    "未命名.md",
     "19190fc3-d53e-4394-b5e8-71696d4c1c0c.jpeg",
     "093ef7a1-401e-40e8-8d99-6ce524355e12.jpeg",
-    "Timeline 结构分析.md",
-    "Welcome.md",
-    "Shader整理.canvas",
     "Shader 整理.md",
     "Excalidraw/Drawing 2024-05-15 15.29.34.excalidraw.md",
     "Excalidraw",
-    "kanban.md",
-    "备忘录.md",
-    "Blender fbx导出设置.md",
     "测试git.md",
     "AAABBB.md",
     "未命名 1.md",
     "未命名 1 1.md",
-    "未命名",
     "2024-05-07.md",
     "Excalidraw/Drawing 2024-05-07 23.02.48.excalidraw.md",
     "bbb.md",

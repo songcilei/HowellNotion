@@ -1,12 +1,20 @@
 {
 	"nodes":[
-		{"id":"9f20f3b42c9018d9","x":266,"y":-162,"width":250,"height":60,"type":"text","text":"Setup"},
-		{"id":"8a64054c6f058f42","x":660,"y":-158,"width":250,"height":53,"type":"text","text":"SetupLights()"},
-		{"id":"90bdbbcbfa15f72b","x":660,"y":-60,"width":250,"height":60,"type":"text","text":"shadows.Render()"},
-		{"id":"8888ff7c37994787","x":660,"y":-260,"width":250,"height":60,"type":"text","text":"shadow.Setup()"},
-		{"id":"c4f4d941d177a262","x":-120,"y":-30,"width":250,"height":60,"type":"text","text":"Lighting"},
-		{"id":"5f551384236c6931","x":266,"y":120,"width":250,"height":60,"type":"text","text":"Cleanup"},
-		{"id":"0015fa217338065f","x":1060,"y":-161,"width":250,"height":60,"type":"text","text":"从CullResults获取lights并发送到各个属性"}
+		{"id":"83bb9c15faac08a3","x":1300,"y":-100,"width":380,"height":413,"type":"group","label":"设置状态"},
+		{"id":"c4f4d941d177a262","type":"text","text":"Lighting","x":-120,"y":-30,"width":250,"height":60,"color":"6"},
+		{"id":"9f20f3b42c9018d9","type":"text","text":"Setup","x":220,"y":-165,"width":250,"height":60,"color":"6"},
+		{"id":"5f551384236c6931","type":"text","text":"Cleanup","x":220,"y":60,"width":250,"height":60,"color":"6"},
+		{"id":"8888ff7c37994787","type":"text","text":"shadow.Setup()","x":535,"y":-280,"width":250,"height":60,"color":"1"},
+		{"id":"8a64054c6f058f42","type":"text","text":"SetupLights()","x":535,"y":-161,"width":250,"height":53,"color":"6"},
+		{"id":"0015fa217338065f","type":"text","text":"从CullResults获取lights并发送到各个属性","x":900,"y":-164,"width":250,"height":60,"color":"6"},
+		{"id":"90bdbbcbfa15f72b","type":"text","text":"shadows.Render()","x":535,"y":90,"width":250,"height":60,"color":"1"},
+		{"id":"18b0af5d6e455f42","x":900,"y":92,"width":277,"height":58,"color":"1","type":"text","text":"RenderDirectionAlShadows()"},
+		{"id":"3240ed7d21da1bf4","x":1320,"y":-80,"width":250,"height":60,"color":"1","type":"text","text":"CreateShadowAtlasRT"},
+		{"id":"1d0a51840b8a908b","x":1320,"y":30,"width":340,"height":60,"color":"1","type":"text","text":"SetRenderTarget=>ShadowAtlasRT"},
+		{"id":"fdcdedc995ba375c","x":1320,"y":121,"width":250,"height":60,"color":"1","type":"text","text":"ClearRenderTarget()"},
+		{"id":"bd0dc32cc8a3334a","x":1322,"y":233,"width":250,"height":60,"color":"1","type":"text","text":"ExecuteBuffer()"},
+		{"id":"eead6679fcb4616f","x":1337,"y":427,"width":250,"height":60,"type":"text","text":"计算单个buffer tile大小"},
+		{"id":"63b91ecc8d59178f","x":1337,"y":620,"width":303,"height":60,"type":"text","text":"RenderDirectionalShadows（）"}
 	],
 	"edges":[
 		{"id":"3551dfc7a114dc81","fromNode":"c4f4d941d177a262","fromSide":"right","toNode":"9f20f3b42c9018d9","toSide":"left"},
@@ -14,6 +22,13 @@
 		{"id":"b7979feaf3e0ddfc","fromNode":"c4f4d941d177a262","fromSide":"right","toNode":"5f551384236c6931","toSide":"left"},
 		{"id":"d2a66b42b1b5b617","fromNode":"9f20f3b42c9018d9","fromSide":"right","toNode":"8888ff7c37994787","toSide":"left"},
 		{"id":"780144c531e62526","fromNode":"9f20f3b42c9018d9","fromSide":"right","toNode":"90bdbbcbfa15f72b","toSide":"left"},
-		{"id":"c64355c77433097c","fromNode":"8a64054c6f058f42","fromSide":"right","toNode":"0015fa217338065f","toSide":"left"}
+		{"id":"c64355c77433097c","fromNode":"8a64054c6f058f42","fromSide":"right","toNode":"0015fa217338065f","toSide":"left"},
+		{"id":"9dcb8864dfc75048","fromNode":"90bdbbcbfa15f72b","fromSide":"right","toNode":"18b0af5d6e455f42","toSide":"left"},
+		{"id":"89bc1a5c9002d1f1","fromNode":"18b0af5d6e455f42","fromSide":"right","toNode":"3240ed7d21da1bf4","toSide":"left"},
+		{"id":"cbba2ec8b03e89e8","fromNode":"18b0af5d6e455f42","fromSide":"right","toNode":"1d0a51840b8a908b","toSide":"left"},
+		{"id":"2c034fbfc9c0cc69","fromNode":"18b0af5d6e455f42","fromSide":"right","toNode":"fdcdedc995ba375c","toSide":"left"},
+		{"id":"74325b1b235e103e","fromNode":"18b0af5d6e455f42","fromSide":"right","toNode":"bd0dc32cc8a3334a","toSide":"left"},
+		{"id":"97a816d0fea28595","fromNode":"18b0af5d6e455f42","fromSide":"right","toNode":"eead6679fcb4616f","toSide":"left"},
+		{"id":"a6cb6eef1bac9767","fromNode":"18b0af5d6e455f42","fromSide":"right","toNode":"63b91ecc8d59178f","toSide":"left"}
 	]
 }
