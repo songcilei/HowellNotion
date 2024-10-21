@@ -1,0 +1,14 @@
+{
+	"nodes":[
+		{"id":"8909a88025438cb9","x":-740,"y":-90,"width":1470,"height":330,"type":"group","label":"PoolMgr"},
+		{"id":"2c7349fbd5608aaf","x":-20,"y":10,"width":200,"height":90,"type":"text","text":"m_ObjectPool\n```\nm_HPBarItemObjectPool = GameEntry.ObjectPool.CreateSingleSpawnObjectPool<HPBarItemObject>(\"HPBarItem\", m_InstancePoolCapacity);\n```"},
+		{"id":"f09147bd94e220e2","x":453,"y":160,"width":250,"height":60,"type":"text","text":"unSpawn()卸载"},
+		{"id":"62fd3003c5f1f74d","x":460,"y":-70,"width":250,"height":60,"type":"text","text":"Register()注册"},
+		{"id":"f7ab18b21b585a4d","x":-720,"y":-25,"width":410,"height":160,"type":"text","text":"PoolMgr=>IObjectPool(类型:List)\n```\nprivate IObjectPool<HPBarItemObject> m_HPBarItemObjectPool = null;\n```"}
+	],
+	"edges":[
+		{"id":"d2a55f27e8368f2e","fromNode":"f7ab18b21b585a4d","fromSide":"right","toNode":"2c7349fbd5608aaf","toSide":"left","label":"createPool"},
+		{"id":"a8f1ccada5af27a5","fromNode":"2c7349fbd5608aaf","fromSide":"right","toNode":"62fd3003c5f1f74d","toSide":"left"},
+		{"id":"b54f41a1f7d5d8c6","fromNode":"2c7349fbd5608aaf","fromSide":"right","toNode":"f09147bd94e220e2","toSide":"left"}
+	]
+}

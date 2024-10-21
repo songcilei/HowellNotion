@@ -4,11 +4,11 @@
 		{"id":"286847a36c6c4731","type":"text","text":"GrassBoundTool","x":-149,"y":-140,"width":250,"height":60},
 		{"id":"8518842bf998d9ca","type":"text","text":"GrassRtDraw(core)","x":-149,"y":40,"width":250,"height":60},
 		{"id":"f66059a9917a1ee7","type":"text","text":"CreateGrassStaticValue","x":-149,"y":280,"width":250,"height":60},
-		{"id":"baf438937af01fb8","x":-740,"y":-137,"width":250,"height":60,"type":"text","text":"GrassMaterial"},
-		{"id":"8cc255cd679f48d9","x":-740,"y":40,"width":250,"height":60,"type":"text","text":"tex2D"},
+		{"id":"baf438937af01fb8","type":"text","text":"GrassMaterial","x":-740,"y":-137,"width":250,"height":60},
+		{"id":"8cc255cd679f48d9","type":"text","text":"rt\n","x":-740,"y":40,"width":250,"height":60},
 		{"id":"ec3e7a0dd8e26c93","type":"text","text":"mGridDataUtil网格数据类\n","x":-440,"y":40,"width":250,"height":60},
 		{"id":"8cac7ea372e67508","type":"text","text":"CreateGrassStaticObject\n草分布和LOD","x":560,"y":-140,"width":250,"height":60},
-		{"id":"dc83050ac0528ab9","x":240,"y":40,"width":250,"height":60,"type":"text","text":"EffectMgr特效管理"}
+		{"id":"dc83050ac0528ab9","type":"text","text":"EffectMgr特效管理","x":240,"y":40,"width":250,"height":60}
 	],
 	"edges":[
 		{"id":"4ab921049d9f8f94","fromNode":"286847a36c6c4731","fromSide":"right","toNode":"8cac7ea372e67508","toSide":"left","label":"创建草分布数据"},

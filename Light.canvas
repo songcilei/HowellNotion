@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"9f20f3b42c9018d9","x":266,"y":-162,"width":250,"height":60,"type":"text","text":"Setup"},
+		{"id":"8a64054c6f058f42","x":660,"y":-158,"width":250,"height":53,"type":"text","text":"SetupLights()"},
+		{"id":"90bdbbcbfa15f72b","x":660,"y":-60,"width":250,"height":60,"type":"text","text":"shadows.Render()"},
+		{"id":"8888ff7c37994787","x":660,"y":-260,"width":250,"height":60,"type":"text","text":"shadow.Setup()"},
+		{"id":"c4f4d941d177a262","x":-120,"y":-30,"width":250,"height":60,"type":"text","text":"Lighting"},
+		{"id":"5f551384236c6931","x":266,"y":120,"width":250,"height":60,"type":"text","text":"Cleanup"},
+		{"id":"0015fa217338065f","x":1060,"y":-161,"width":250,"height":60,"type":"text","text":"从CullResults获取lights并发送到各个属性"}
+	],
+	"edges":[
+		{"id":"3551dfc7a114dc81","fromNode":"c4f4d941d177a262","fromSide":"right","toNode":"9f20f3b42c9018d9","toSide":"left"},
+		{"id":"8c2c3773c9a0a040","fromNode":"9f20f3b42c9018d9","fromSide":"right","toNode":"8a64054c6f058f42","toSide":"left"},
+		{"id":"b7979feaf3e0ddfc","fromNode":"c4f4d941d177a262","fromSide":"right","toNode":"5f551384236c6931","toSide":"left"},
+		{"id":"d2a66b42b1b5b617","fromNode":"9f20f3b42c9018d9","fromSide":"right","toNode":"8888ff7c37994787","toSide":"left"},
+		{"id":"780144c531e62526","fromNode":"9f20f3b42c9018d9","fromSide":"right","toNode":"90bdbbcbfa15f72b","toSide":"left"},
+		{"id":"c64355c77433097c","fromNode":"8a64054c6f058f42","fromSide":"right","toNode":"0015fa217338065f","toSide":"left"}
+	]
+}
