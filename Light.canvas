@@ -1,9 +1,6 @@
 {
 	"nodes":[
 		{"id":"83bb9c15faac08a3","x":1300,"y":-100,"width":380,"height":413,"type":"group","label":"设置状态"},
-		{"id":"c4f4d941d177a262","type":"text","text":"Lighting","x":-120,"y":-30,"width":250,"height":60,"color":"6"},
-		{"id":"9f20f3b42c9018d9","type":"text","text":"Setup","x":220,"y":-165,"width":250,"height":60,"color":"6"},
-		{"id":"5f551384236c6931","type":"text","text":"Cleanup","x":220,"y":60,"width":250,"height":60,"color":"6"},
 		{"id":"8888ff7c37994787","type":"text","text":"shadow.Setup()","x":535,"y":-280,"width":250,"height":60,"color":"1"},
 		{"id":"8a64054c6f058f42","type":"text","text":"SetupLights()","x":535,"y":-161,"width":250,"height":53,"color":"6"},
 		{"id":"0015fa217338065f","type":"text","text":"从CullResults获取lights并发送到各个属性","x":900,"y":-164,"width":250,"height":60,"color":"6"},
@@ -14,7 +11,10 @@
 		{"id":"fdcdedc995ba375c","x":1320,"y":121,"width":250,"height":60,"color":"1","type":"text","text":"ClearRenderTarget()"},
 		{"id":"bd0dc32cc8a3334a","x":1322,"y":233,"width":250,"height":60,"color":"1","type":"text","text":"ExecuteBuffer()"},
 		{"id":"eead6679fcb4616f","x":1337,"y":427,"width":250,"height":60,"color":"1","type":"text","text":"计算单个buffer tile大小"},
-		{"id":"63b91ecc8d59178f","x":1337,"y":620,"width":303,"height":60,"color":"1","type":"text","text":"RenderDirectionalShadows（）"}
+		{"id":"63b91ecc8d59178f","x":1337,"y":620,"width":303,"height":60,"color":"1","type":"text","text":"RenderDirectionalShadows（）"},
+		{"id":"c4f4d941d177a262","type":"text","text":"Lighting","x":-260,"y":-33,"width":250,"height":60,"color":"6"},
+		{"id":"9f20f3b42c9018d9","type":"text","text":"Setup","x":80,"y":-168,"width":250,"height":60,"color":"6"},
+		{"id":"5f551384236c6931","type":"text","text":"Cleanup","x":80,"y":57,"width":250,"height":60,"color":"6"}
 	],
 	"edges":[
 		{"id":"3551dfc7a114dc81","fromNode":"c4f4d941d177a262","fromSide":"right","toNode":"9f20f3b42c9018d9","toSide":"left"},
