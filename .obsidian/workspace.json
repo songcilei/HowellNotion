@@ -20,11 +20,13 @@
                   "state": {
                     "file": "Light.canvas",
                     "viewState": {
-                      "x": 1766.3525252340667,
-                      "y": 674.238225689548,
+                      "x": 1747.3525252340667,
+                      "y": 641.238225689548,
                       "zoom": 0
                     }
-                  }
+                  },
+                  "icon": "lucide-layout-dashboard",
+                  "title": "Light"
                 }
               }
             ]
@@ -39,7 +41,9 @@
                 "type": "leaf",
                 "state": {
                   "type": "mindmap",
-                  "state": {}
+                  "state": {},
+                  "icon": "dot-network",
+                  "title": "Mind Map of Light"
                 }
               }
             ]
@@ -65,7 +69,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
             }
           },
           {
@@ -80,7 +86,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
             }
           },
           {
@@ -88,7 +96,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
             }
           }
         ]
@@ -119,7 +129,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Light 的反向链接列表"
             }
           },
           {
@@ -131,7 +143,9 @@
                 "file": "Light.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Light 的出链列表"
             }
           },
           {
@@ -142,7 +156,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
             }
           },
           {
@@ -152,7 +168,9 @@
               "type": "outline",
               "state": {
                 "file": "Light.canvas"
-              }
+              },
+              "icon": "lucide-list",
+              "title": "Light 的大纲"
             }
           }
         ],
