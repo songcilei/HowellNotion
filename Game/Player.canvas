@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"585b1901348d5b36","x":-540,"y":-400,"width":180,"height":60,"type":"text","text":"PlayerDetailsSO"},
+		{"id":"7e4b673671a78f1d","x":-120,"y":-400,"width":250,"height":60,"type":"text","text":"CurrentPlayerSO"},
+		{"id":"b197eae7e80ce95c","x":260,"y":-400,"width":250,"height":60,"type":"text","text":"GameManager"},
+		{"id":"89d7382f44dead4b","x":260,"y":-700,"width":250,"height":60,"type":"text","text":"Play"},
+		{"id":"64c8578aa0e361e1","x":-370,"y":-600,"width":250,"height":50,"type":"text","text":"Player\n"},
+		{"id":"79cb3488c978d697","x":-370,"y":-840,"width":250,"height":60,"type":"text","text":"Health"},
+		{"id":"daaee89d14dc40bb","x":-710,"y":-575,"width":250,"height":60,"type":"text","text":"Animation\n"},
+		{"id":"20b0a1b078fdfa27","x":-710,"y":-700,"width":250,"height":60,"type":"text","text":"Render"}
+	],
+	"edges":[
+		{"id":"33b49787119da359","fromNode":"585b1901348d5b36","fromSide":"right","toNode":"7e4b673671a78f1d","toSide":"left"},
+		{"id":"89bc02750a9a4475","fromNode":"7e4b673671a78f1d","fromSide":"right","toNode":"b197eae7e80ce95c","toSide":"left"},
+		{"id":"99c6545187e05d82","fromNode":"89d7382f44dead4b","fromSide":"bottom","toNode":"b197eae7e80ce95c","toSide":"top"},
+		{"id":"c29ee46c27f68914","fromNode":"79cb3488c978d697","fromSide":"bottom","toNode":"64c8578aa0e361e1","toSide":"top"},
+		{"id":"b2ca0391784b8755","fromNode":"585b1901348d5b36","fromSide":"right","toNode":"64c8578aa0e361e1","toSide":"bottom"},
+		{"id":"c807ed8b38abc658","fromNode":"20b0a1b078fdfa27","fromSide":"right","toNode":"64c8578aa0e361e1","toSide":"left"},
+		{"id":"14c91eaf8de779ee","fromNode":"daaee89d14dc40bb","fromSide":"right","toNode":"64c8578aa0e361e1","toSide":"left"}
+	]
+}

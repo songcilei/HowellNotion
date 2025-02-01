@@ -14,7 +14,7 @@
               "type": "mindmap",
               "state": {},
               "icon": "dot-network",
-              "title": "Mind Map of DungeonBuild"
+              "title": "Mind Map of Player"
             }
           },
           {
@@ -23,15 +23,15 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "DungeonBuild.canvas",
+                "file": "Game/Player.canvas",
                 "viewState": {
-                  "x": 517.8357476635516,
-                  "y": -334.7758411214956,
-                  "zoom": -1.2674284517359204
+                  "x": -132.06000000000014,
+                  "y": -383.26460937500013,
+                  "zoom": 0
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "DungeonBuild"
+              "title": "Player"
             }
           }
         ],
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DungeonBuild.canvas",
+                "file": "Game/Player.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "DungeonBuild 的反向链接列表"
+              "title": "Player 的反向链接列表"
             }
           },
           {
@@ -127,12 +127,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DungeonBuild.canvas",
+                "file": "Game/Player.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "DungeonBuild 的出链列表"
+              "title": "Player 的出链列表"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DungeonBuild.canvas",
+                "file": "Game/Player.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "DungeonBuild 的大纲"
+              "title": "Player 的大纲"
             }
           }
         ]
@@ -184,6 +184,9 @@
   },
   "active": "977f58be5b0551b2",
   "lastOpenFiles": [
+    "Game/DungeonBuild.canvas",
+    "Game/Player.canvas",
+    "Game",
     "Blender fbx导出设置.md",
     "未命名 1.canvas",
     "未命名.canvas",
@@ -199,10 +202,8 @@
     "树 种类.md",
     "Light.canvas",
     "kanban.md",
-    "DungeonBuild.canvas",
     "conflict-files-obsidian-git.md",
     "DungeonBuild.canvas_副本",
-    "未命名",
     "Pasted image 20240519170145.png",
     "Pasted image 20240519170255.png",
     "Pasted image 20240519170221.png",
