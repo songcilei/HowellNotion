@@ -1,0 +1,42 @@
+{
+	"nodes":[
+		{"id":"527951b116daa081","x":40,"y":-120,"width":250,"height":60,"type":"text","text":"DungeonLevelSO"},
+		{"id":"c89e5748cbe1909b","x":380,"y":-260,"width":250,"height":100,"type":"text","text":"RoomTemplateList\n房间模板 列表\n"},
+		{"id":"4f846e2c85e19bf4","x":380,"y":40,"width":250,"height":120,"type":"text","text":"RoomNodeGraphList\n房间树节点图 列表\n主要为当前Level下使用哪些房间树图\n"},
+		{"id":"a4d33207ea616eff","x":740,"y":-320,"width":250,"height":220,"type":"text","text":"RoomTemplateSO\n记录了房间的Prefab\n记录了房间类型的SO（RoomNodeTypeSO）\n记录了位置和大小（左上角和右下角）\n记录了多个出入口的信息\n"},
+		{"id":"e0943d173c6b3c02","x":780,"y":70,"width":250,"height":60,"type":"text","text":"RoomNodeGraphSO\n房间树节点图"},
+		{"id":"c98305bf9a445ce5","x":-820,"y":-290,"width":250,"height":60,"type":"text","text":"游戏运行Play"},
+		{"id":"f0d0208c314945dc","x":-380,"y":-120,"width":250,"height":60,"type":"text","text":"GameManager(Obj & CS)"},
+		{"id":"e503308286aa7c79","x":-420,"y":-780,"width":250,"height":120,"type":"text","text":"GameResources(prefab)加载并通过RoomNodeTypeListSO获取所有的房间类型和材质球"},
+		{"id":"3b9a32653cae2cfa","x":-380,"y":-480,"width":250,"height":60,"type":"text","text":"DungeonBuilder\n根据信息创建地下城"},
+		{"id":"09d1f0e9649d059e","x":-20,"y":-495,"width":250,"height":90,"type":"text","text":"AttemptToBuildRandomDungeon 尝试创建一个随机地下城"},
+		{"id":"00b34591d906be0d","x":380,"y":-800,"width":250,"height":160,"type":"text","text":"ProcessRoomsInOpenRoomNodeQueue\n 将房间入口节点的所有子节点加入到list  并创建对应room 节点加入到list"},
+		{"id":"ffedbbe1e8274522","x":740,"y":-940,"width":250,"height":60,"type":"text","text":"如果是入口 则创建入口room"},
+		{"id":"1aabcca113031631","x":740,"y":-670,"width":250,"height":130,"type":"text","text":"如果不是入口room。则CanPlaceRoomWithNoOverlaps 检测重叠 其实是检测 DoorWay 内的方向和位置"},
+		{"id":"9819e7e858fea357","x":1160,"y":-635,"width":250,"height":95,"type":"text","text":"如果成功 则创建对应的room 且打标记\nPlaceTheRoom()"},
+		{"id":"7cda33bc07d77ef9","x":1740,"y":-940,"width":250,"height":60,"type":"text","text":"Instance Room到场景中"},
+		{"id":"38ecbeb035e3d7c2","x":280,"y":-1280,"width":250,"height":60,"type":"text","text":"Room 房间类"},
+		{"id":"2263fed495ec7a03","x":666,"y":-1201,"width":250,"height":60,"type":"text","text":"DoorWay 门类\n"},
+		{"id":"0bae49ea5b0e3e38","x":666,"y":-1340,"width":250,"height":60,"type":"text","text":"ChildRoomList"}
+	],
+	"edges":[
+		{"id":"7f1917ba8ae8ce4d","fromNode":"f0d0208c314945dc","fromSide":"right","toNode":"527951b116daa081","toSide":"left","label":"Select level"},
+		{"id":"095fe787b042db6e","fromNode":"527951b116daa081","fromSide":"right","toNode":"c89e5748cbe1909b","toSide":"left"},
+		{"id":"fa769f8ac4080e68","fromNode":"527951b116daa081","fromSide":"right","toNode":"4f846e2c85e19bf4","toSide":"left"},
+		{"id":"127a3f553a4d3b6d","fromNode":"c89e5748cbe1909b","fromSide":"right","toNode":"a4d33207ea616eff","toSide":"left","label":"For"},
+		{"id":"e4de38eff977cac6","fromNode":"4f846e2c85e19bf4","fromSide":"right","toNode":"e0943d173c6b3c02","toSide":"left","label":"For"},
+		{"id":"7175ad260483fc8a","fromNode":"c98305bf9a445ce5","fromSide":"right","toNode":"f0d0208c314945dc","toSide":"left"},
+		{"id":"2f860ea62e6910a7","fromNode":"c98305bf9a445ce5","fromSide":"right","toNode":"3b9a32653cae2cfa","toSide":"left"},
+		{"id":"4e20efe7e911893c","fromNode":"3b9a32653cae2cfa","fromSide":"top","toNode":"e503308286aa7c79","toSide":"bottom","label":"Awake"},
+		{"id":"fcd9cbaaf2349d82","fromNode":"f0d0208c314945dc","fromSide":"top","toNode":"3b9a32653cae2cfa","toSide":"bottom","color":"4","label":"PlayDungeonLevel调用创建地下城"},
+		{"id":"ed514593cf85dd24","fromNode":"38ecbeb035e3d7c2","fromSide":"right","toNode":"2263fed495ec7a03","toSide":"left"},
+		{"id":"25101e26000c5301","fromNode":"38ecbeb035e3d7c2","fromSide":"right","toNode":"0bae49ea5b0e3e38","toSide":"left"},
+		{"id":"81a4f7056097d030","fromNode":"3b9a32653cae2cfa","fromSide":"right","toNode":"09d1f0e9649d059e","toSide":"left"},
+		{"id":"088b76cefdacdbb0","fromNode":"09d1f0e9649d059e","fromSide":"right","toNode":"00b34591d906be0d","toSide":"left"},
+		{"id":"ce09749798d2f667","fromNode":"00b34591d906be0d","fromSide":"right","toNode":"ffedbbe1e8274522","toSide":"left"},
+		{"id":"8f4e809c34a9abe1","fromNode":"00b34591d906be0d","fromSide":"right","toNode":"1aabcca113031631","toSide":"left"},
+		{"id":"e64e649f91342acb","fromNode":"1aabcca113031631","fromSide":"right","toNode":"9819e7e858fea357","toSide":"left"},
+		{"id":"751ae6b532899a45","fromNode":"ffedbbe1e8274522","fromSide":"right","toNode":"7cda33bc07d77ef9","toSide":"left"},
+		{"id":"f15aefc67d51c2d8","fromNode":"9819e7e858fea357","fromSide":"right","toNode":"7cda33bc07d77ef9","toSide":"left"}
+	]
+}
