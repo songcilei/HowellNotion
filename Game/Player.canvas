@@ -5,9 +5,9 @@
 		{"id":"b197eae7e80ce95c","x":300,"y":-400,"width":250,"height":60,"type":"text","text":"GameManager"},
 		{"id":"89d7382f44dead4b","x":300,"y":-260,"width":250,"height":60,"type":"text","text":"Play"},
 		{"id":"64c8578aa0e361e1","x":-240,"y":-720,"width":250,"height":50,"type":"text","text":"Player\n"},
-		{"id":"79cb3488c978d697","x":-575,"y":-1000,"width":125,"height":60,"type":"text","text":"Health"},
-		{"id":"daaee89d14dc40bb","x":-592,"y":-695,"width":160,"height":55,"type":"text","text":"Animation\n"},
-		{"id":"20b0a1b078fdfa27","x":-557,"y":-820,"width":125,"height":60,"type":"text","text":"Render"}
+		{"id":"daaee89d14dc40bb","x":-530,"y":-670,"width":160,"height":55,"type":"text","text":"Animation\n"},
+		{"id":"20b0a1b078fdfa27","x":-512,"y":-795,"width":125,"height":60,"type":"text","text":"Render"},
+		{"id":"79cb3488c978d697","x":-513,"y":-935,"width":125,"height":60,"type":"text","text":"Health"}
 	],
 	"edges":[
 		{"id":"33b49787119da359","fromNode":"585b1901348d5b36","fromSide":"right","toNode":"7e4b673671a78f1d","toSide":"left"},
