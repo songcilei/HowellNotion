@@ -12,36 +12,30 @@
             "type": "leaf",
             "state": {
               "type": "mindmap",
-              "state": {}
+              "state": {},
+              "icon": "dot-network",
+              "title": "Mind Map of 未命名"
             }
           },
           {
-            "id": "3a1e8afb8270d5e7",
+            "id": "7648cb24730cac78",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
                 "file": "未命名.canvas",
                 "viewState": {
-                  "x": -189.41000000000008,
-                  "y": -71.86000000000004,
-                  "zoom": 0
+                  "x": 35,
+                  "y": 90,
+                  "zoom": -0.40912653678923194
                 }
-              }
-            }
-          },
-          {
-            "id": "e3e81e5acdc95db6",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.5"
-              }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "未命名"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -60,8 +54,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
             }
           },
           {
@@ -76,7 +73,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
             }
           },
           {
@@ -84,7 +83,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
             }
           }
         ]
@@ -115,7 +116,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "未命名 的反向链接列表"
             }
           },
           {
@@ -127,7 +130,9 @@
                 "file": "未命名.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "未命名 的出链列表"
             }
           },
           {
@@ -137,8 +142,12 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
-              }
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
             }
           },
           {
@@ -147,16 +156,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "未命名.canvas"
-              }
+                "file": "未命名.canvas",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "未命名 的大纲"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -169,31 +182,40 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "e3e81e5acdc95db6",
+  "active": "4d647abf8d4114e7",
   "lastOpenFiles": [
-    "Win表.md",
+    "结构.md",
     "未命名.canvas",
+    "树 种类.md",
+    "未命名 1.canvas",
+    "Light.canvas",
+    "kanban.md",
+    "DungeonBuild.canvas",
+    "conflict-files-obsidian-git.md",
+    "DungeonBuild.canvas_副本",
+    "未命名/c21ebe204673a7898bbc123444f9e100.png",
+    "未命名/Pasted image 20240519170255.png",
+    "未命名/Pasted image 20240519170221.png",
+    "未命名/Pasted image 20240519170145.png",
+    "未命名",
+    "Win表.md",
     "Pasted image 20240519170145.png",
     "Pasted image 20240519170255.png",
     "Pasted image 20240519170221.png",
     "备忘录.md",
     "mac test.md",
     "Shader整理.canvas",
-    "结构.md",
     "Excalidraw/Drawing 2024-05-15 15.29.34.excalidraw.md",
     "093ef7a1-401e-40e8-8d99-6ce524355e12.jpeg",
     "19190fc3-d53e-4394-b5e8-71696d4c1c0c.jpeg",
-    "树 种类.md",
     "Blender fbx导出设置.md",
     "Timeline 结构分析.md",
     "Welcome.md",
-    "kanban.md",
     "Excalidraw",
     "测试git.md",
     "AAABBB.md",
     "未命名 1.md",
     "未命名 1 1.md",
-    "未命名",
     "2024-05-07.md",
     "Excalidraw/Drawing 2024-05-07 23.02.48.excalidraw.md",
     "bbb.md",
