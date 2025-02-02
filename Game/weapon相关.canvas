@@ -1,13 +1,23 @@
 {
 	"nodes":[
 		{"id":"c7f00a66985b31c9","x":0,"y":0,"width":400,"height":400,"type":"file","file":"Game/weapon.md"},
-		{"id":"9c08307ff2d73f7d","type":"text","text":"Idle","x":460,"y":170,"width":250,"height":60},
-		{"id":"f5d195a74a3b78c8","x":460,"y":260,"width":250,"height":60,"type":"text","text":"AimWeaponEvent"},
-		{"id":"eda205e235f51ec4","x":460,"y":340,"width":250,"height":60,"type":"text","text":"AimWeapon"},
-		{"id":"adf08bb8858653a1","x":460,"y":420,"width":250,"height":60,"type":"text","text":"AimatePlayer"},
-		{"id":"c21cb4aae19f0575","x":460,"y":520,"width":250,"height":60,"type":"text","text":"PlayerControl"},
-		{"id":"e08e324096041e87","x":460,"y":80,"width":250,"height":60,"type":"text","text":"IdleEvent"},
-		{"id":"f2e1e6e8190a16ce","x":373,"y":-69,"width":250,"height":60,"type":"text","text":"Player"}
+		{"id":"9c08307ff2d73f7d","type":"text","text":"Idle 监听 idleEvent事件 用来处理Ridbody2D的速度","x":1120,"y":410,"width":250,"height":60},
+		{"id":"e08e324096041e87","x":700,"y":400,"width":250,"height":80,"type":"text","text":"IdleEvent\n声明Action事件和调用函数"},
+		{"id":"f2e1e6e8190a16ce","x":1120,"y":590,"width":250,"height":60,"type":"text","text":"Player"},
+		{"id":"f5d195a74a3b78c8","x":700,"y":790,"width":250,"height":100,"type":"text","text":"AimWeaponEvent\n声明Action事件和调用函数\n附带参数"},
+		{"id":"eda205e235f51ec4","x":1120,"y":790,"width":250,"height":100,"type":"text","text":"AimWeapon监听AimWeaponEvent事件\n用来处理武器旋转"},
+		{"id":"adf08bb8858653a1","x":1680,"y":565,"width":250,"height":115,"type":"text","text":"AimatePlayer。主要用于控制动画Animator\n监听IdleEvent\n监听AimWeaponEvent"},
+		{"id":"c21cb4aae19f0575","x":300,"y":590,"width":160,"height":60,"type":"text","text":"PlayerControl"}
 	],
-	"edges":[]
+	"edges":[
+		{"id":"acfef57d249bf99a","fromNode":"e08e324096041e87","fromSide":"right","toNode":"f2e1e6e8190a16ce","toSide":"left"},
+		{"id":"68676f13be02a1d2","fromNode":"f5d195a74a3b78c8","fromSide":"right","toNode":"f2e1e6e8190a16ce","toSide":"left"},
+		{"id":"e0edde921b22a35c","fromNode":"e08e324096041e87","fromSide":"right","toNode":"9c08307ff2d73f7d","toSide":"left"},
+		{"id":"4f5bfa8cb176589f","fromNode":"9c08307ff2d73f7d","fromSide":"bottom","toNode":"f2e1e6e8190a16ce","toSide":"top"},
+		{"id":"b192a20b3a259b1a","fromNode":"c21cb4aae19f0575","fromSide":"right","toNode":"e08e324096041e87","toSide":"left","label":"分发Event"},
+		{"id":"f020a08b586e697e","fromNode":"c21cb4aae19f0575","fromSide":"right","toNode":"f5d195a74a3b78c8","toSide":"left","label":"分发Event"},
+		{"id":"2c6b9e3b641349c1","fromNode":"f5d195a74a3b78c8","fromSide":"right","toNode":"eda205e235f51ec4","toSide":"left"},
+		{"id":"070ffe9d15b52f25","fromNode":"eda205e235f51ec4","fromSide":"top","toNode":"f2e1e6e8190a16ce","toSide":"bottom"},
+		{"id":"e5f1413859e372cd","fromNode":"f2e1e6e8190a16ce","fromSide":"right","toNode":"adf08bb8858653a1","toSide":"left"}
+	]
 }
