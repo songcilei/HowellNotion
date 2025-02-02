@@ -1,6 +1,5 @@
 {
 	"nodes":[
-		{"id":"7f4f9528efe48f78","x":-200,"y":-1139,"width":250,"height":60,"type":"text","text":""},
 		{"id":"527951b116daa081","type":"text","text":"DungeonLevelSO","x":40,"y":-120,"width":250,"height":60},
 		{"id":"c89e5748cbe1909b","type":"text","text":"RoomTemplateList\n房间模板 列表\n","x":380,"y":-260,"width":250,"height":100},
 		{"id":"4f846e2c85e19bf4","type":"text","text":"RoomNodeGraphList\n房间树节点图 列表\n主要为当前Level下使用哪些房间树图\n","x":380,"y":40,"width":250,"height":120},
@@ -8,7 +7,6 @@
 		{"id":"e0943d173c6b3c02","type":"text","text":"RoomNodeGraphSO\n房间树节点图","x":780,"y":70,"width":250,"height":60},
 		{"id":"c98305bf9a445ce5","type":"text","text":"游戏运行Play","x":-820,"y":-290,"width":250,"height":60},
 		{"id":"f0d0208c314945dc","type":"text","text":"GameManager(Obj & CS)","x":-380,"y":-120,"width":250,"height":60},
-		{"id":"e503308286aa7c79","type":"text","text":"GameResources(prefab)加载并通过RoomNodeTypeListSO获取所有的房间类型和材质球","x":-420,"y":-780,"width":250,"height":120},
 		{"id":"3b9a32653cae2cfa","type":"text","text":"DungeonBuilder\n根据信息创建地下城","x":-380,"y":-480,"width":250,"height":60},
 		{"id":"09d1f0e9649d059e","type":"text","text":"AttemptToBuildRandomDungeon 尝试创建一个随机地下城","x":-20,"y":-495,"width":250,"height":90},
 		{"id":"00b34591d906be0d","type":"text","text":"ProcessRoomsInOpenRoomNodeQueue\n 将房间入口节点的所有子节点加入到list  并创建对应room 节点加入到list","x":380,"y":-800,"width":250,"height":160},
@@ -18,7 +16,9 @@
 		{"id":"7cda33bc07d77ef9","type":"text","text":"Instance Room到场景中","x":1740,"y":-940,"width":250,"height":60},
 		{"id":"38ecbeb035e3d7c2","type":"text","text":"Room 房间类","x":280,"y":-1280,"width":250,"height":60},
 		{"id":"2263fed495ec7a03","type":"text","text":"DoorWay 门类\n","x":666,"y":-1201,"width":250,"height":60},
-		{"id":"0bae49ea5b0e3e38","type":"text","text":"ChildRoomList","x":666,"y":-1340,"width":250,"height":60}
+		{"id":"0bae49ea5b0e3e38","type":"text","text":"ChildRoomList","x":666,"y":-1340,"width":250,"height":60},
+		{"id":"e503308286aa7c79","type":"text","text":"GameResources(prefab)加载并通过RoomNodeTypeListSO获取所有的房间类型和材质球","x":-380,"y":-780,"width":250,"height":120},
+		{"id":"7f4f9528efe48f78","type":"text","text":"InstantiatedRoom","x":666,"y":-1520,"width":250,"height":50}
 	],
 	"edges":[
 		{"id":"7f1917ba8ae8ce4d","fromNode":"f0d0208c314945dc","fromSide":"right","toNode":"527951b116daa081","toSide":"left","label":"Select level"},

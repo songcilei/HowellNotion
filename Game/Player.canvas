@@ -1,13 +1,18 @@
 {
 	"nodes":[
-		{"id":"585b1901348d5b36","x":-540,"y":-400,"width":180,"height":60,"type":"text","text":"PlayerDetailsSO"},
-		{"id":"7e4b673671a78f1d","x":-140,"y":-400,"width":250,"height":60,"type":"text","text":"CurrentPlayerSO"},
-		{"id":"b197eae7e80ce95c","x":300,"y":-400,"width":250,"height":60,"type":"text","text":"GameManager"},
-		{"id":"89d7382f44dead4b","x":300,"y":-260,"width":250,"height":60,"type":"text","text":"Play"},
-		{"id":"64c8578aa0e361e1","x":-240,"y":-720,"width":250,"height":50,"type":"text","text":"Player\n"},
-		{"id":"daaee89d14dc40bb","x":-530,"y":-670,"width":160,"height":55,"type":"text","text":"Animation\n"},
-		{"id":"20b0a1b078fdfa27","x":-512,"y":-795,"width":125,"height":60,"type":"text","text":"Render"},
-		{"id":"79cb3488c978d697","x":-513,"y":-935,"width":125,"height":60,"type":"text","text":"Health"}
+		{"id":"50222b3b2230585f","type":"group","x":-1140,"y":-500,"width":290,"height":340,"label":"角色参数"},
+		{"id":"585b1901348d5b36","type":"text","text":"PlayerDetailsSO\n这里包含了角色所使用的所有的信息\nPrefab\n名字\n健康\n动画\n挂点等\n","x":-540,"y":-400,"width":180,"height":220},
+		{"id":"daaee89d14dc40bb","type":"text","text":"Animation\n","x":-530,"y":-670,"width":160,"height":55},
+		{"id":"803cc1a7f151a7fe","type":"text","text":"animation","x":-1120,"y":-320,"width":250,"height":60},
+		{"id":"5e7f6793872c38ca","type":"text","text":"weaponPoint","x":-1120,"y":-240,"width":250,"height":60},
+		{"id":"699058535f913ca9","type":"text","text":"characterPrefab","x":-1120,"y":-480,"width":250,"height":60},
+		{"id":"63afc28293127d25","type":"text","text":"helath","x":-1120,"y":-400,"width":250,"height":60},
+		{"id":"7e4b673671a78f1d","type":"text","text":"CurrentPlayerSO 这里是为了选人","x":-115,"y":-320,"width":250,"height":60},
+		{"id":"64c8578aa0e361e1","type":"text","text":"Player\n","x":-240,"y":-720,"width":250,"height":50},
+		{"id":"20b0a1b078fdfa27","type":"text","text":"Render","x":-512,"y":-795,"width":125,"height":60},
+		{"id":"79cb3488c978d697","type":"text","text":"Health","x":-513,"y":-935,"width":125,"height":60},
+		{"id":"b197eae7e80ce95c","type":"text","text":"GameManager\n创建角色 放入场景中\n前一个房间previousRoom\n当前的房间currentRoom","x":340,"y":-330,"width":250,"height":80},
+		{"id":"89d7382f44dead4b","type":"text","text":"Play","x":340,"y":-180,"width":250,"height":60}
 	],
 	"edges":[
 		{"id":"33b49787119da359","fromNode":"585b1901348d5b36","fromSide":"right","toNode":"7e4b673671a78f1d","toSide":"left"},
@@ -16,6 +21,10 @@
 		{"id":"14c91eaf8de779ee","fromNode":"daaee89d14dc40bb","fromSide":"right","toNode":"64c8578aa0e361e1","toSide":"left"},
 		{"id":"51b9c3e9bcc5f1f4","fromNode":"89d7382f44dead4b","fromSide":"top","toNode":"b197eae7e80ce95c","toSide":"bottom"},
 		{"id":"93b0f83d11a0f3a4","fromNode":"79cb3488c978d697","fromSide":"right","toNode":"64c8578aa0e361e1","toSide":"left"},
-		{"id":"e002fb5514bc7872","fromNode":"585b1901348d5b36","fromSide":"right","toNode":"64c8578aa0e361e1","toSide":"left"}
+		{"id":"e002fb5514bc7872","fromNode":"585b1901348d5b36","fromSide":"right","toNode":"64c8578aa0e361e1","toSide":"left"},
+		{"id":"beceb7dd6637d35d","fromNode":"699058535f913ca9","fromSide":"right","toNode":"585b1901348d5b36","toSide":"left"},
+		{"id":"3e98cc95e48b5a1d","fromNode":"803cc1a7f151a7fe","fromSide":"right","toNode":"585b1901348d5b36","toSide":"left"},
+		{"id":"1dabdfc587096733","fromNode":"5e7f6793872c38ca","fromSide":"right","toNode":"585b1901348d5b36","toSide":"left"},
+		{"id":"1c70b5bcd9c224a1","fromNode":"63afc28293127d25","fromSide":"right","toNode":"585b1901348d5b36","toSide":"left"}
 	]
 }

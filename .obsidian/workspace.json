@@ -8,30 +8,37 @@
         "type": "tabs",
         "children": [
           {
-            "id": "70260ebc01997464",
-            "type": "leaf",
-            "state": {
-              "type": "mindmap",
-              "state": {},
-              "icon": "dot-network",
-              "title": "Mind Map of Player"
-            }
-          },
-          {
             "id": "977f58be5b0551b2",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Game/Player.canvas",
+                "file": "Game/weapon相关.canvas",
                 "viewState": {
-                  "x": -37.1319679802816,
-                  "y": -513.1560855654814,
-                  "zoom": -0.5112805157899857
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "Player"
+              "title": "weapon相关"
+            }
+          },
+          {
+            "id": "f6098738cccebae0",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Game/weapon相关.canvas",
+                "viewState": {
+                  "x": 200.88000000000005,
+                  "y": 107.8800000000001,
+                  "zoom": 0
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "weapon相关"
             }
           }
         ],
@@ -108,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Game/Player.canvas",
+                "file": "Game/weapon相关.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +125,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Player 的反向链接列表"
+              "title": "weapon相关 的反向链接列表"
             }
           },
           {
@@ -127,12 +134,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Game/Player.canvas",
+                "file": "Game/weapon相关.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Player 的出链列表"
+              "title": "weapon相关 的出链列表"
             }
           },
           {
@@ -156,13 +163,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Game/Player.canvas",
+                "file": "Game/weapon相关.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Player 的大纲"
+              "title": "weapon相关 的大纲"
             }
           }
         ]
@@ -182,10 +189,12 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "977f58be5b0551b2",
+  "active": "f6098738cccebae0",
   "lastOpenFiles": [
-    "Game/DungeonBuild.canvas",
+    "Game/weapon.md",
+    "Game/weapon相关.canvas",
     "Game/Player.canvas",
+    "Game/DungeonBuild.canvas",
     "Game",
     "Blender fbx导出设置.md",
     "未命名 1.canvas",
