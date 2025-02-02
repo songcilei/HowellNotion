@@ -1,6 +1,13 @@
 {
 	"nodes":[
-		{"id":"c7f00a66985b31c9","x":0,"y":0,"width":400,"height":400,"type":"file","file":"Game/weapon.md"}
+		{"id":"c7f00a66985b31c9","x":0,"y":0,"width":400,"height":400,"type":"file","file":"Game/weapon.md"},
+		{"id":"9c08307ff2d73f7d","type":"text","text":"Idle","x":460,"y":170,"width":250,"height":60},
+		{"id":"f5d195a74a3b78c8","x":460,"y":260,"width":250,"height":60,"type":"text","text":"AimWeaponEvent"},
+		{"id":"eda205e235f51ec4","x":460,"y":340,"width":250,"height":60,"type":"text","text":"AimWeapon"},
+		{"id":"adf08bb8858653a1","x":460,"y":420,"width":250,"height":60,"type":"text","text":"AimatePlayer"},
+		{"id":"c21cb4aae19f0575","x":460,"y":520,"width":250,"height":60,"type":"text","text":"PlayerControl"},
+		{"id":"e08e324096041e87","x":460,"y":80,"width":250,"height":60,"type":"text","text":"IdleEvent"},
+		{"id":"f2e1e6e8190a16ce","x":373,"y":-69,"width":250,"height":60,"type":"text","text":"Player"}
 	],
 	"edges":[]
 }
