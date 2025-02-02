@@ -7,7 +7,8 @@
 		{"id":"f5d195a74a3b78c8","x":700,"y":790,"width":250,"height":100,"type":"text","text":"AimWeaponEvent\n声明Action事件和调用函数\n附带参数"},
 		{"id":"eda205e235f51ec4","x":1120,"y":790,"width":250,"height":100,"type":"text","text":"AimWeapon监听AimWeaponEvent事件\n用来处理武器旋转"},
 		{"id":"adf08bb8858653a1","x":1680,"y":565,"width":250,"height":115,"type":"text","text":"AimatePlayer。主要用于控制动画Animator\n监听IdleEvent\n监听AimWeaponEvent"},
-		{"id":"c21cb4aae19f0575","x":300,"y":590,"width":160,"height":60,"type":"text","text":"PlayerControl"}
+		{"id":"c21cb4aae19f0575","x":260,"y":590,"width":200,"height":90,"type":"text","text":"PlayerControl\n这里获取了player 通过player 分发"},
+		{"id":"90a285e0de115386","x":552,"y":122,"width":250,"height":60,"type":"text","text":"Awake 先于OnEnable执行"}
 	],
 	"edges":[
 		{"id":"acfef57d249bf99a","fromNode":"e08e324096041e87","fromSide":"right","toNode":"f2e1e6e8190a16ce","toSide":"left"},
@@ -18,6 +19,7 @@
 		{"id":"f020a08b586e697e","fromNode":"c21cb4aae19f0575","fromSide":"right","toNode":"f5d195a74a3b78c8","toSide":"left","label":"分发Event"},
 		{"id":"2c6b9e3b641349c1","fromNode":"f5d195a74a3b78c8","fromSide":"right","toNode":"eda205e235f51ec4","toSide":"left"},
 		{"id":"070ffe9d15b52f25","fromNode":"eda205e235f51ec4","fromSide":"top","toNode":"f2e1e6e8190a16ce","toSide":"bottom"},
-		{"id":"e5f1413859e372cd","fromNode":"f2e1e6e8190a16ce","fromSide":"right","toNode":"adf08bb8858653a1","toSide":"left"}
+		{"id":"e5f1413859e372cd","fromNode":"f2e1e6e8190a16ce","fromSide":"right","toNode":"adf08bb8858653a1","toSide":"left"},
+		{"id":"737baee633a24397","fromNode":"f2e1e6e8190a16ce","fromSide":"left","toNode":"c21cb4aae19f0575","toSide":"right"}
 	]
 }
