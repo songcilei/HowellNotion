@@ -4,52 +4,45 @@
     "type": "split",
     "children": [
       {
-        "id": "3bcbb0afdfce521e",
-        "type": "split",
+        "id": "b353f7555a705807",
+        "type": "tabs",
         "children": [
           {
-            "id": "c1dbd1b5aaaf9fdd",
-            "type": "tabs",
-            "dimension": 85.71428571428571,
-            "children": [
-              {
-                "id": "e28d9ae719ee5359",
-                "type": "leaf",
-                "state": {
-                  "type": "canvas",
-                  "state": {
-                    "file": "Game/Player.canvas",
-                    "viewState": {
-                      "x": -632.1659232827835,
-                      "y": -910.0579167318203,
-                      "zoom": -0.4735192986637531
-                    }
-                  },
-                  "icon": "lucide-layout-dashboard",
-                  "title": "Player"
+            "id": "977f58be5b0551b2",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Game/weapon相关.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
                 }
-              }
-            ]
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "weapon相关"
+            }
           },
           {
-            "id": "9a7cefecd2263b21",
-            "type": "tabs",
-            "dimension": 14.285714285714285,
-            "children": [
-              {
-                "id": "79613e22503792b2",
-                "type": "leaf",
-                "state": {
-                  "type": "mindmap",
-                  "state": {},
-                  "icon": "dot-network",
-                  "title": "Mind Map of Player"
+            "id": "f6098738cccebae0",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Game/weapon相关.canvas",
+                "viewState": {
+                  "x": 886.2899151860813,
+                  "y": 573.6223869324606,
+                  "zoom": -0.247938088240723
                 }
-              }
-            ]
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "weapon相关"
+            }
           }
         ],
-        "direction": "horizontal"
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -106,7 +99,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "5d02888df2a231bb",
@@ -122,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Light.canvas",
+                "file": "Game/weapon相关.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +125,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Light 的反向链接列表"
+              "title": "weapon相关 的反向链接列表"
             }
           },
           {
@@ -141,12 +134,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Light.canvas",
+                "file": "Game/weapon相关.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Light 的出链列表"
+              "title": "weapon相关 的出链列表"
             }
           },
           {
@@ -156,7 +149,9 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "标签"
@@ -168,21 +163,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Game/Player.canvas",
+                "file": "Game/weapon相关.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Player 的大纲"
+              "title": "weapon相关 的大纲"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -195,40 +189,41 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "e28d9ae719ee5359",
+  "active": "f6098738cccebae0",
   "lastOpenFiles": [
     "Game/PlayerControl.canvas",
-    "Game/Player.canvas",
     "Game/Detail/MoveToPosition.md",
     "Game/Detail",
-    "Game/weapon相关.canvas",
     "Game/weapon.md",
+    "Game/weapon相关.canvas",
+    "Game/Player.canvas",
     "Game/DungeonBuild.canvas",
-    "Light.canvas",
     "Game",
-    "结构.md",
-    "树 种类.md",
-    "未命名/c21ebe204673a7898bbc123444f9e100.png",
+    "Blender fbx导出设置.md",
+    "未命名 1.canvas",
+    "未命名.canvas",
+    "备忘录.md",
     "未命名/Pasted image 20240519170255.png",
     "未命名/Pasted image 20240519170221.png",
     "未命名/Pasted image 20240519170145.png",
-    "kanban.md",
-    "conflict-files-obsidian-git.md",
-    "未命名 1.canvas",
-    "Blender fbx导出设置.md",
-    "Shader整理.canvas",
+    "未命名/c21ebe204673a7898bbc123444f9e100.png",
     "Timeline 结构分析.md",
-    "未命名.canvas",
-    "备忘录.md",
     "Win表.md",
     "Welcome.md",
-    "Lighting.md",
-    "2024-10-21.md",
-    "未命名.md",
-    "19190fc3-d53e-4394-b5e8-71696d4c1c0c.jpeg",
-    "093ef7a1-401e-40e8-8d99-6ce524355e12.jpeg",
-    "Shader 整理.md",
+    "结构.md",
+    "树 种类.md",
+    "Light.canvas",
+    "kanban.md",
+    "conflict-files-obsidian-git.md",
+    "DungeonBuild.canvas_副本",
+    "Pasted image 20240519170145.png",
+    "Pasted image 20240519170255.png",
+    "Pasted image 20240519170221.png",
+    "mac test.md",
+    "Shader整理.canvas",
     "Excalidraw/Drawing 2024-05-15 15.29.34.excalidraw.md",
+    "093ef7a1-401e-40e8-8d99-6ce524355e12.jpeg",
+    "19190fc3-d53e-4394-b5e8-71696d4c1c0c.jpeg",
     "Excalidraw",
     "测试git.md",
     "AAABBB.md",
