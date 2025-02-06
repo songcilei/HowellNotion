@@ -2,8 +2,6 @@
 	"nodes":[
 		{"id":"02d97782ac9ff42e","type":"text","text":"PlayerControl\n","x":-440,"y":-100,"width":250,"height":60},
 		{"id":"914b4761cac69511","type":"text","text":"MoveMentInput","x":3,"y":-320,"width":250,"height":60},
-		{"id":"08a5d77659e66b75","type":"text","text":"Player内的Event","x":1340,"y":-40,"width":250,"height":60},
-		{"id":"c9372d002d7cf49e","type":"text","text":"AnimatePlayer","x":1720,"y":-40,"width":250,"height":60},
 		{"id":"7815452d247d90cf","type":"text","text":"MovementToPosition\n（yield return waitForFixedUpdate）\nrigidBody2D.MovePosition","x":820,"y":-540,"width":250,"height":140},
 		{"id":"ae407e4611ee110b","type":"text","text":"MovementByVelocity\nrigidBody2D.velocity","x":820,"y":-680,"width":250,"height":80},
 		{"id":"dd6204b1212151b0","type":"text","text":"Rool","x":440,"y":-370,"width":250,"height":50},
@@ -11,7 +9,7 @@
 		{"id":"8e17c493cb0ce164","type":"text","text":"Idle","x":440,"y":-260,"width":250,"height":60},
 		{"id":"a8e1eb5c4ecb48a9","type":"text","text":"Idle\nrigidBody2D.velocity = Vector2.zero;","x":820,"y":-360,"width":250,"height":80},
 		{"id":"833d91e47c1b58a9","type":"text","text":"WeaponInput","x":-5,"y":300,"width":250,"height":60},
-		{"id":"76d2ae4d40dffcfb","type":"text","text":"PlayerRoolCoolDownTimer","x":-12,"y":1280,"width":265,"height":60},
+		{"id":"76d2ae4d40dffcfb","type":"text","text":"PlayerRollCoolDownTimer 滚动冷却时间计算","x":-12,"y":1280,"width":265,"height":60},
 		{"id":"320079bd400485df","type":"text","text":"FireWeaponInput","x":440,"y":270,"width":250,"height":60},
 		{"id":"0f50d36d6c37cb7a","type":"text","text":"SwitchWeaponInput 切换武器","x":440,"y":420,"width":250,"height":60},
 		{"id":"36c6b9861ede866d","type":"text","text":"ReloadWeaponInput\n重装弹药","x":440,"y":580,"width":250,"height":60},
@@ -26,8 +24,12 @@
 		{"id":"c9224c74f09e34e4","x":1800,"y":308,"width":280,"height":105,"type":"text","text":"启用协程 发射子弹(池获取)\nFireAmmoRoutine\n子弹自定义数量和角度等\n播放子弹特效\n播放声音特效"},
 		{"id":"b1d30b4363e49e09","x":963,"y":420,"width":250,"height":60,"type":"text","text":"SetWeaponByIndex（武器ID）"},
 		{"id":"73b3ca0801f1eb90","x":963,"y":580,"width":250,"height":60,"type":"text","text":"StartReloadWeapon"},
-		{"id":"c81d866fc7b94424","type":"text","text":"UseItemInput","x":-12,"y":960,"width":250,"height":60},
-		{"id":"2dfe389dfaee7f56","x":521,"y":960,"width":250,"height":60,"type":"text","text":"UseItem()"}
+		{"id":"c81d866fc7b94424","type":"text","text":"UseItemInput 使用场景物品","x":-12,"y":960,"width":250,"height":60},
+		{"id":"2dfe389dfaee7f56","x":521,"y":960,"width":250,"height":60,"type":"text","text":"UseItem()"},
+		{"id":"04c6afe5e1c5b616","x":890,"y":877,"width":250,"height":60,"type":"text","text":"table"},
+		{"id":"822e2f5cd2ab4740","x":890,"y":1040,"width":250,"height":60,"type":"text","text":"Chest"},
+		{"id":"c9372d002d7cf49e","type":"text","text":"AnimatePlayer","x":2720,"y":-180,"width":250,"height":60},
+		{"id":"08a5d77659e66b75","type":"text","text":"Player内的Event","x":1780,"y":-180,"width":250,"height":60}
 	],
 	"edges":[
 		{"id":"5d2e07cfe2e5f848","fromNode":"02d97782ac9ff42e","fromSide":"right","toNode":"914b4761cac69511","toSide":"left"},
@@ -60,6 +62,8 @@
 		{"id":"1c2ad3b7b417f558","fromNode":"142e9e88e961dc43","fromSide":"right","toNode":"c9224c74f09e34e4","toSide":"left"},
 		{"id":"adf9043f7aa23fd0","fromNode":"0f50d36d6c37cb7a","fromSide":"right","toNode":"b1d30b4363e49e09","toSide":"left"},
 		{"id":"4035d5e59e067ef6","fromNode":"36c6b9861ede866d","fromSide":"right","toNode":"73b3ca0801f1eb90","toSide":"left","label":"Event"},
-		{"id":"333a738bb485dcb7","fromNode":"c81d866fc7b94424","fromSide":"right","toNode":"2dfe389dfaee7f56","toSide":"left","label":"接口IUseable"}
+		{"id":"333a738bb485dcb7","fromNode":"c81d866fc7b94424","fromSide":"right","toNode":"2dfe389dfaee7f56","toSide":"left","label":"接口IUseable"},
+		{"id":"d779e69f21eb3b28","fromNode":"2dfe389dfaee7f56","fromSide":"right","toNode":"04c6afe5e1c5b616","toSide":"left"},
+		{"id":"a274db2fb71bd680","fromNode":"2dfe389dfaee7f56","fromSide":"right","toNode":"822e2f5cd2ab4740","toSide":"left"}
 	]
 }

@@ -20,9 +20,9 @@
                   "state": {
                     "file": "Game/PlayerControl.canvas",
                     "viewState": {
-                      "x": 1232,
-                      "y": 1261.5,
-                      "zoom": 0
+                      "x": 3979.939052091889,
+                      "y": 3587.420731312535,
+                      "zoom": -2.3333333333333326
                     }
                   },
                   "icon": "lucide-layout-dashboard",
@@ -195,7 +195,7 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "e28d9ae719ee5359",
+  "active": "4d647abf8d4114e7",
   "lastOpenFiles": [
     "Game/Detail/MoveToPosition.md",
     "Game/PlayerControl.canvas",
