@@ -20,9 +20,9 @@
                   "state": {
                     "file": "Game/Player.canvas",
                     "viewState": {
-                      "x": -233,
-                      "y": 630.5,
-                      "zoom": 0
+                      "x": -632.1659232827835,
+                      "y": -910.0579167318203,
+                      "zoom": -0.4735192986637531
                     }
                   },
                   "icon": "lucide-layout-dashboard",
@@ -198,11 +198,11 @@
   "active": "e28d9ae719ee5359",
   "lastOpenFiles": [
     "Game/PlayerControl.canvas",
+    "Game/Player.canvas",
     "Game/Detail/MoveToPosition.md",
     "Game/Detail",
     "Game/weapon相关.canvas",
     "Game/weapon.md",
-    "Game/Player.canvas",
     "Game/DungeonBuild.canvas",
     "Light.canvas",
     "Game",
