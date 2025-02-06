@@ -1,14 +1,22 @@
 {
 	"nodes":[
-		{"id":"c81d866fc7b94424","x":-5,"y":-40,"width":250,"height":60,"type":"text","text":"UseItemInput"},
-		{"id":"833d91e47c1b58a9","x":-5,"y":-180,"width":250,"height":60,"type":"text","text":"WeaponInput"},
 		{"id":"02d97782ac9ff42e","x":-440,"y":-100,"width":250,"height":60,"type":"text","text":"PlayerControl\n"},
-		{"id":"76d2ae4d40dffcfb","x":-12,"y":120,"width":265,"height":60,"type":"text","text":"PlayerRoolCoolDownTimer"},
 		{"id":"914b4761cac69511","x":3,"y":-320,"width":250,"height":60,"type":"text","text":"MoveMentInput"},
-		{"id":"5b51a4b7f2c4e625","x":440,"y":-380,"width":250,"height":60,"type":"text","text":"Move"},
-		{"id":"dd6204b1212151b0","x":440,"y":-260,"width":250,"height":60,"type":"text","text":"Rool（yield return waitForFixedUpdate）"},
-		{"id":"08a5d77659e66b75","x":1340,"y":-40,"width":250,"height":60,"type":"text","text":"Player内的MoveEvent"},
-		{"id":"c9372d002d7cf49e","x":1720,"y":-40,"width":250,"height":60,"type":"text","text":"AnimatePlayer"}
+		{"id":"08a5d77659e66b75","x":1340,"y":-40,"width":250,"height":60,"type":"text","text":"Player内的Event"},
+		{"id":"c9372d002d7cf49e","x":1720,"y":-40,"width":250,"height":60,"type":"text","text":"AnimatePlayer"},
+		{"id":"7815452d247d90cf","x":820,"y":-540,"width":250,"height":140,"type":"text","text":"MovementToPosition\n（yield return waitForFixedUpdate）\nrigidBody2D.MovePosition"},
+		{"id":"ae407e4611ee110b","x":820,"y":-680,"width":250,"height":80,"type":"text","text":"MovementByVelocity\nrigidBody2D.velocity"},
+		{"id":"dd6204b1212151b0","x":440,"y":-370,"width":250,"height":50,"type":"text","text":"Rool"},
+		{"id":"5b51a4b7f2c4e625","x":440,"y":-480,"width":250,"height":50,"type":"text","text":"Move\n"},
+		{"id":"8e17c493cb0ce164","x":440,"y":-260,"width":250,"height":60,"type":"text","text":"Idle"},
+		{"id":"a8e1eb5c4ecb48a9","x":820,"y":-360,"width":250,"height":80,"type":"text","text":"Idle\nrigidBody2D.velocity = Vector2.zero;"},
+		{"id":"833d91e47c1b58a9","x":-5,"y":300,"width":250,"height":60,"type":"text","text":"WeaponInput"},
+		{"id":"76d2ae4d40dffcfb","x":-12,"y":1280,"width":265,"height":60,"type":"text","text":"PlayerRoolCoolDownTimer"},
+		{"id":"c81d866fc7b94424","x":-5,"y":1120,"width":250,"height":60,"type":"text","text":"UseItemInput"},
+		{"id":"320079bd400485df","x":440,"y":270,"width":250,"height":60,"type":"text","text":"FireWeaponInput"},
+		{"id":"0f50d36d6c37cb7a","x":440,"y":420,"width":250,"height":60,"type":"text","text":"SwitchWeaponInput"},
+		{"id":"36c6b9861ede866d","x":440,"y":580,"width":250,"height":60,"type":"text","text":"ReloadWeaponInput\n"},
+		{"id":"33a6c1f565acfce2","x":440,"y":120,"width":250,"height":60,"type":"text","text":"AimWeaponInput"}
 	],
 	"edges":[
 		{"id":"5d2e07cfe2e5f848","fromNode":"02d97782ac9ff42e","fromSide":"right","toNode":"914b4761cac69511","toSide":"left"},
@@ -17,8 +25,17 @@
 		{"id":"989fcdc72eeb9d14","fromNode":"02d97782ac9ff42e","fromSide":"right","toNode":"76d2ae4d40dffcfb","toSide":"left"},
 		{"id":"794df6c0e67ca474","fromNode":"914b4761cac69511","fromSide":"right","toNode":"5b51a4b7f2c4e625","toSide":"left"},
 		{"id":"deab59e8ae6af309","fromNode":"914b4761cac69511","fromSide":"right","toNode":"dd6204b1212151b0","toSide":"left"},
-		{"id":"ffffbe8a8db59bd4","fromNode":"5b51a4b7f2c4e625","fromSide":"right","toNode":"08a5d77659e66b75","toSide":"left"},
 		{"id":"98a826194bf8290d","fromNode":"08a5d77659e66b75","fromSide":"right","toNode":"c9372d002d7cf49e","toSide":"left"},
-		{"id":"a8a6c0aa2016afa9","fromNode":"dd6204b1212151b0","fromSide":"right","toNode":"08a5d77659e66b75","toSide":"left"}
+		{"id":"a6f6c5e722520f1c","fromNode":"dd6204b1212151b0","fromSide":"right","toNode":"7815452d247d90cf","toSide":"left","label":"Event"},
+		{"id":"501bca1bf3f383e5","fromNode":"5b51a4b7f2c4e625","fromSide":"right","toNode":"ae407e4611ee110b","toSide":"left","label":"Event"},
+		{"id":"32722e41d81b5c31","fromNode":"5b51a4b7f2c4e625","fromSide":"right","toNode":"08a5d77659e66b75","toSide":"left","label":"Event"},
+		{"id":"5934bdd001c926e5","fromNode":"dd6204b1212151b0","fromSide":"right","toNode":"08a5d77659e66b75","toSide":"left","label":"Event"},
+		{"id":"575f888381c1e4d4","fromNode":"914b4761cac69511","fromSide":"right","toNode":"8e17c493cb0ce164","toSide":"left"},
+		{"id":"b92a0443c27e521c","fromNode":"8e17c493cb0ce164","fromSide":"right","toNode":"a8e1eb5c4ecb48a9","toSide":"left","label":"Event"},
+		{"id":"80d45d00d20f340a","fromNode":"8e17c493cb0ce164","fromSide":"right","toNode":"08a5d77659e66b75","toSide":"left","label":"Event"},
+		{"id":"47c4360cd32d9c6f","fromNode":"833d91e47c1b58a9","fromSide":"right","toNode":"33a6c1f565acfce2","toSide":"left"},
+		{"id":"e58f29b1de417546","fromNode":"833d91e47c1b58a9","fromSide":"right","toNode":"320079bd400485df","toSide":"left"},
+		{"id":"92eb2da2653ed187","fromNode":"833d91e47c1b58a9","fromSide":"right","toNode":"0f50d36d6c37cb7a","toSide":"left"},
+		{"id":"75777aad8b7c8d23","fromNode":"833d91e47c1b58a9","fromSide":"right","toNode":"36c6b9861ede866d","toSide":"left"}
 	]
 }
