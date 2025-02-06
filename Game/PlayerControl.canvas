@@ -17,7 +17,13 @@
 		{"id":"0f50d36d6c37cb7a","type":"text","text":"SwitchWeaponInput","x":440,"y":420,"width":250,"height":60},
 		{"id":"36c6b9861ede866d","type":"text","text":"ReloadWeaponInput\n","x":440,"y":580,"width":250,"height":60},
 		{"id":"33a6c1f565acfce2","type":"text","text":"AimWeaponInput","x":440,"y":120,"width":250,"height":60},
-		{"id":"6ba2fbe77df3c307","x":1445,"y":-567,"width":400,"height":175,"type":"file","file":"Game/Detail/MoveToPosition.md"}
+		{"id":"6ba2fbe77df3c307","x":1445,"y":-567,"width":400,"height":175,"type":"file","file":"Game/Detail/MoveToPosition.md"},
+		{"id":"37cdd1dba4c09ffb","x":1360,"y":210,"width":250,"height":60,"type":"text","text":"WeaponPreCharge 武器预准备 是否上一帧也被按住"},
+		{"id":"2b6f58783a542343","x":1020,"y":270,"width":250,"height":60,"type":"text","text":"FireWeapon "},
+		{"id":"dd42b06fce9e0214","x":1360,"y":270,"width":250,"height":60,"type":"text","text":"获取枪械子弹种类"},
+		{"id":"142e9e88e961dc43","x":1360,"y":330,"width":250,"height":60,"type":"text","text":"从Pool内实例化"},
+		{"id":"64f902df68f7d704","x":1360,"y":130,"width":250,"height":50,"type":"text","text":"AimWeapon 旋转武器"},
+		{"id":"416f48a5405c6e02","x":1360,"y":390,"width":250,"height":60,"type":"text","text":"冷却时间"}
 	],
 	"edges":[
 		{"id":"5d2e07cfe2e5f848","fromNode":"02d97782ac9ff42e","fromSide":"right","toNode":"914b4761cac69511","toSide":"left"},
@@ -38,6 +44,14 @@
 		{"id":"92eb2da2653ed187","fromNode":"833d91e47c1b58a9","fromSide":"right","toNode":"0f50d36d6c37cb7a","toSide":"left"},
 		{"id":"75777aad8b7c8d23","fromNode":"833d91e47c1b58a9","fromSide":"right","toNode":"36c6b9861ede866d","toSide":"left"},
 		{"id":"a6f6c5e722520f1c","fromNode":"dd6204b1212151b0","fromSide":"right","toNode":"7815452d247d90cf","toSide":"left","label":"Event"},
-		{"id":"64b703b4c025d4dc","fromNode":"7815452d247d90cf","fromSide":"right","toNode":"6ba2fbe77df3c307","toSide":"left"}
+		{"id":"64b703b4c025d4dc","fromNode":"7815452d247d90cf","fromSide":"right","toNode":"6ba2fbe77df3c307","toSide":"left"},
+		{"id":"aa7ef14109153992","fromNode":"33a6c1f565acfce2","fromSide":"right","toNode":"64f902df68f7d704","toSide":"left","label":"Event"},
+		{"id":"20d81b2a53ed188d","fromNode":"33a6c1f565acfce2","fromSide":"right","toNode":"08a5d77659e66b75","toSide":"left","label":"Event 角色朝向动画"},
+		{"id":"ab9e78ea2308f59e","fromNode":"320079bd400485df","fromSide":"right","toNode":"2b6f58783a542343","toSide":"left","label":"Event"},
+		{"id":"c737808ac3602050","fromNode":"320079bd400485df","fromSide":"right","toNode":"08a5d77659e66b75","toSide":"left"},
+		{"id":"39e9e192b5e4866b","fromNode":"2b6f58783a542343","fromSide":"right","toNode":"37cdd1dba4c09ffb","toSide":"left"},
+		{"id":"359b7d00e604e1ca","fromNode":"2b6f58783a542343","fromSide":"right","toNode":"142e9e88e961dc43","toSide":"left"},
+		{"id":"439ef0dd0bb0e456","fromNode":"2b6f58783a542343","fromSide":"right","toNode":"dd42b06fce9e0214","toSide":"left"},
+		{"id":"37e84f24a8249f10","fromNode":"2b6f58783a542343","fromSide":"right","toNode":"416f48a5405c6e02","toSide":"left"}
 	]
 }
