@@ -12,7 +12,10 @@
 		{"id":"20b0a1b078fdfa27","type":"text","text":"Render","x":-512,"y":-795,"width":125,"height":60},
 		{"id":"79cb3488c978d697","type":"text","text":"Health","x":-513,"y":-935,"width":125,"height":60},
 		{"id":"b197eae7e80ce95c","type":"text","text":"GameManager\n创建角色 放入场景中\n前一个房间previousRoom\n当前的房间currentRoom","x":340,"y":-330,"width":250,"height":80},
-		{"id":"89d7382f44dead4b","type":"text","text":"Play","x":340,"y":-180,"width":250,"height":60}
+		{"id":"89d7382f44dead4b","type":"text","text":"Play","x":340,"y":-180,"width":250,"height":60},
+		{"id":"8e8ac3983cc9b08f","x":-1081,"y":258,"width":250,"height":60,"type":"text","text":"DealContactDamage"},
+		{"id":"1ef4af6589888bee","x":-1081,"y":420,"width":250,"height":60,"type":"text","text":"ReceiveContractDamage"},
+		{"id":"b851fda5c0c8739b","x":-1460,"y":420,"width":250,"height":60,"type":"text","text":"health"}
 	],
 	"edges":[
 		{"id":"33b49787119da359","fromNode":"585b1901348d5b36","fromSide":"right","toNode":"7e4b673671a78f1d","toSide":"left"},
@@ -25,6 +28,8 @@
 		{"id":"beceb7dd6637d35d","fromNode":"699058535f913ca9","fromSide":"right","toNode":"585b1901348d5b36","toSide":"left"},
 		{"id":"3e98cc95e48b5a1d","fromNode":"803cc1a7f151a7fe","fromSide":"right","toNode":"585b1901348d5b36","toSide":"left"},
 		{"id":"1dabdfc587096733","fromNode":"5e7f6793872c38ca","fromSide":"right","toNode":"585b1901348d5b36","toSide":"left"},
-		{"id":"1c70b5bcd9c224a1","fromNode":"63afc28293127d25","fromSide":"right","toNode":"585b1901348d5b36","toSide":"left"}
+		{"id":"1c70b5bcd9c224a1","fromNode":"63afc28293127d25","fromSide":"right","toNode":"585b1901348d5b36","toSide":"left"},
+		{"id":"64bbd341815ebcf2","fromNode":"b851fda5c0c8739b","fromSide":"right","toNode":"1ef4af6589888bee","toSide":"left"},
+		{"id":"21b0837f2f792f02","fromNode":"8e8ac3983cc9b08f","fromSide":"bottom","toNode":"1ef4af6589888bee","toSide":"top","label":"check"}
 	]
 }

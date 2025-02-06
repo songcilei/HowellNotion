@@ -18,15 +18,15 @@
                 "state": {
                   "type": "canvas",
                   "state": {
-                    "file": "Game/PlayerControl.canvas",
+                    "file": "Game/Player.canvas",
                     "viewState": {
-                      "x": 3979.939052091889,
-                      "y": 3587.420731312535,
-                      "zoom": -2.3333333333333326
+                      "x": -233,
+                      "y": 630.5,
+                      "zoom": 0
                     }
                   },
                   "icon": "lucide-layout-dashboard",
-                  "title": "PlayerControl"
+                  "title": "Player"
                 }
               }
             ]
@@ -43,7 +43,7 @@
                   "type": "mindmap",
                   "state": {},
                   "icon": "dot-network",
-                  "title": "Mind Map of PlayerControl"
+                  "title": "Mind Map of Player"
                 }
               }
             ]
@@ -168,13 +168,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Game/PlayerControl.canvas",
+                "file": "Game/Player.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "PlayerControl 的大纲"
+              "title": "Player 的大纲"
             }
           }
         ],
@@ -195,10 +195,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "4d647abf8d4114e7",
+  "active": "e28d9ae719ee5359",
   "lastOpenFiles": [
-    "Game/Detail/MoveToPosition.md",
     "Game/PlayerControl.canvas",
+    "Game/Detail/MoveToPosition.md",
     "Game/Detail",
     "Game/weapon相关.canvas",
     "Game/weapon.md",
