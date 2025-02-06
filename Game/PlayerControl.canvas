@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"c81d866fc7b94424","x":-5,"y":-40,"width":250,"height":60,"type":"text","text":"UseItemInput"},
+		{"id":"833d91e47c1b58a9","x":-5,"y":-180,"width":250,"height":60,"type":"text","text":"WeaponInput"},
+		{"id":"02d97782ac9ff42e","x":-440,"y":-100,"width":250,"height":60,"type":"text","text":"PlayerControl\n"},
+		{"id":"76d2ae4d40dffcfb","x":-12,"y":120,"width":265,"height":60,"type":"text","text":"PlayerRoolCoolDownTimer"},
+		{"id":"914b4761cac69511","x":3,"y":-320,"width":250,"height":60,"type":"text","text":"MoveMentInput"},
+		{"id":"5b51a4b7f2c4e625","x":440,"y":-380,"width":250,"height":60,"type":"text","text":"Move"},
+		{"id":"dd6204b1212151b0","x":440,"y":-260,"width":250,"height":60,"type":"text","text":"Rool（yield return waitForFixedUpdate）"}
+	],
+	"edges":[
+		{"id":"5d2e07cfe2e5f848","fromNode":"02d97782ac9ff42e","fromSide":"right","toNode":"914b4761cac69511","toSide":"left"},
+		{"id":"52c8d349d77eefdf","fromNode":"02d97782ac9ff42e","fromSide":"right","toNode":"833d91e47c1b58a9","toSide":"left"},
+		{"id":"a573efa777e20dac","fromNode":"02d97782ac9ff42e","fromSide":"right","toNode":"c81d866fc7b94424","toSide":"left"},
+		{"id":"989fcdc72eeb9d14","fromNode":"02d97782ac9ff42e","fromSide":"right","toNode":"76d2ae4d40dffcfb","toSide":"left"},
+		{"id":"794df6c0e67ca474","fromNode":"914b4761cac69511","fromSide":"right","toNode":"5b51a4b7f2c4e625","toSide":"left"},
+		{"id":"deab59e8ae6af309","fromNode":"914b4761cac69511","fromSide":"right","toNode":"dd6204b1212151b0","toSide":"left"}
+	]
+}
