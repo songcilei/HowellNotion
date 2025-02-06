@@ -20,8 +20,8 @@
                   "state": {
                     "file": "Game/PlayerControl.canvas",
                     "viewState": {
-                      "x": 671,
-                      "y": 549,
+                      "x": 596,
+                      "y": -401.5,
                       "zoom": 0
                     }
                   },
@@ -197,8 +197,10 @@
   },
   "active": "e28d9ae719ee5359",
   "lastOpenFiles": [
-    "Game/weapon相关.canvas",
+    "Game/Detail/MoveToPosition.md",
     "Game/PlayerControl.canvas",
+    "Game/Detail",
+    "Game/weapon相关.canvas",
     "Game/weapon.md",
     "Game/Player.canvas",
     "Game/DungeonBuild.canvas",
@@ -210,7 +212,6 @@
     "未命名/Pasted image 20240519170255.png",
     "未命名/Pasted image 20240519170221.png",
     "未命名/Pasted image 20240519170145.png",
-    "未命名",
     "kanban.md",
     "conflict-files-obsidian-git.md",
     "未命名 1.canvas",
