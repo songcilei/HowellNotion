@@ -20,16 +20,29 @@
                   "state": {
                     "file": "Game/Player.canvas",
                     "viewState": {
-                      "x": -405,
-                      "y": -659.5,
+                      "x": -381,
+                      "y": -478.5,
                       "zoom": 0
                     }
                   },
                   "icon": "lucide-layout-dashboard",
                   "title": "Player"
                 }
+              },
+              {
+                "id": "4bf0b3e804d617b0",
+                "type": "leaf",
+                "state": {
+                  "type": "release-notes",
+                  "state": {
+                    "currentVersion": "1.8.4"
+                  },
+                  "icon": "lucide-book-up",
+                  "title": "Release Notes 1.8.4"
+                }
               }
-            ]
+            ],
+            "currentTab": 1
           },
           {
             "id": "9a7cefecd2263b21",
@@ -43,7 +56,7 @@
                   "type": "mindmap",
                   "state": {},
                   "icon": "dot-network",
-                  "title": "Mind Map of Player"
+                  "title": "Mind Map of 未打开文件"
                 }
               }
             ]
@@ -68,7 +81,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -167,10 +181,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Game/Player.canvas"
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Player 的大纲"
+              "title": "大纲"
             }
           }
         ],
@@ -191,7 +207,7 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "e28d9ae719ee5359",
+  "active": "4bf0b3e804d617b0",
   "lastOpenFiles": [
     "Game/weapon.md",
     "Light.canvas",
