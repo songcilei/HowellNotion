@@ -12,18 +12,22 @@
 		{"id":"a8e1eb5c4ecb48a9","type":"text","text":"Idle\nrigidBody2D.velocity = Vector2.zero;","x":820,"y":-360,"width":250,"height":80},
 		{"id":"833d91e47c1b58a9","type":"text","text":"WeaponInput","x":-5,"y":300,"width":250,"height":60},
 		{"id":"76d2ae4d40dffcfb","type":"text","text":"PlayerRoolCoolDownTimer","x":-12,"y":1280,"width":265,"height":60},
-		{"id":"c81d866fc7b94424","type":"text","text":"UseItemInput","x":-5,"y":1120,"width":250,"height":60},
 		{"id":"320079bd400485df","type":"text","text":"FireWeaponInput","x":440,"y":270,"width":250,"height":60},
-		{"id":"0f50d36d6c37cb7a","type":"text","text":"SwitchWeaponInput","x":440,"y":420,"width":250,"height":60},
-		{"id":"36c6b9861ede866d","type":"text","text":"ReloadWeaponInput\n","x":440,"y":580,"width":250,"height":60},
+		{"id":"0f50d36d6c37cb7a","type":"text","text":"SwitchWeaponInput 切换武器","x":440,"y":420,"width":250,"height":60},
+		{"id":"36c6b9861ede866d","type":"text","text":"ReloadWeaponInput\n重装弹药","x":440,"y":580,"width":250,"height":60},
 		{"id":"33a6c1f565acfce2","type":"text","text":"AimWeaponInput","x":440,"y":120,"width":250,"height":60},
 		{"id":"6ba2fbe77df3c307","x":1445,"y":-567,"width":400,"height":175,"type":"file","file":"Game/Detail/MoveToPosition.md"},
 		{"id":"37cdd1dba4c09ffb","x":1360,"y":210,"width":250,"height":60,"type":"text","text":"WeaponPreCharge 武器预准备 是否上一帧也被按住"},
 		{"id":"2b6f58783a542343","x":1020,"y":270,"width":250,"height":60,"type":"text","text":"FireWeapon "},
-		{"id":"dd42b06fce9e0214","x":1360,"y":270,"width":250,"height":60,"type":"text","text":"获取枪械子弹种类"},
-		{"id":"142e9e88e961dc43","x":1360,"y":330,"width":250,"height":60,"type":"text","text":"从Pool内实例化"},
+		{"id":"dd42b06fce9e0214","x":1360,"y":270,"width":250,"height":60,"type":"text","text":"检查是否可以发射子弹  IsWeaponReadyToFire"},
+		{"id":"142e9e88e961dc43","x":1360,"y":330,"width":250,"height":60,"type":"text","text":"FireAmmo 获取对应武器子弹 "},
 		{"id":"64f902df68f7d704","x":1360,"y":130,"width":250,"height":50,"type":"text","text":"AimWeapon 旋转武器"},
-		{"id":"416f48a5405c6e02","x":1360,"y":390,"width":250,"height":60,"type":"text","text":"冷却时间"}
+		{"id":"416f48a5405c6e02","x":1360,"y":390,"width":250,"height":60,"type":"text","text":"重置冷却时间\n重置武器预准备时间"},
+		{"id":"c9224c74f09e34e4","x":1800,"y":308,"width":280,"height":105,"type":"text","text":"启用协程 发射子弹(池获取)\nFireAmmoRoutine\n子弹自定义数量和角度等\n播放子弹特效\n播放声音特效"},
+		{"id":"b1d30b4363e49e09","x":963,"y":420,"width":250,"height":60,"type":"text","text":"SetWeaponByIndex（武器ID）"},
+		{"id":"73b3ca0801f1eb90","x":963,"y":580,"width":250,"height":60,"type":"text","text":"StartReloadWeapon"},
+		{"id":"c81d866fc7b94424","type":"text","text":"UseItemInput","x":-12,"y":960,"width":250,"height":60},
+		{"id":"2dfe389dfaee7f56","x":521,"y":960,"width":250,"height":60,"type":"text","text":"UseItem()"}
 	],
 	"edges":[
 		{"id":"5d2e07cfe2e5f848","fromNode":"02d97782ac9ff42e","fromSide":"right","toNode":"914b4761cac69511","toSide":"left"},
@@ -52,6 +56,10 @@
 		{"id":"39e9e192b5e4866b","fromNode":"2b6f58783a542343","fromSide":"right","toNode":"37cdd1dba4c09ffb","toSide":"left"},
 		{"id":"359b7d00e604e1ca","fromNode":"2b6f58783a542343","fromSide":"right","toNode":"142e9e88e961dc43","toSide":"left"},
 		{"id":"439ef0dd0bb0e456","fromNode":"2b6f58783a542343","fromSide":"right","toNode":"dd42b06fce9e0214","toSide":"left"},
-		{"id":"37e84f24a8249f10","fromNode":"2b6f58783a542343","fromSide":"right","toNode":"416f48a5405c6e02","toSide":"left"}
+		{"id":"37e84f24a8249f10","fromNode":"2b6f58783a542343","fromSide":"right","toNode":"416f48a5405c6e02","toSide":"left"},
+		{"id":"1c2ad3b7b417f558","fromNode":"142e9e88e961dc43","fromSide":"right","toNode":"c9224c74f09e34e4","toSide":"left"},
+		{"id":"adf9043f7aa23fd0","fromNode":"0f50d36d6c37cb7a","fromSide":"right","toNode":"b1d30b4363e49e09","toSide":"left"},
+		{"id":"4035d5e59e067ef6","fromNode":"36c6b9861ede866d","fromSide":"right","toNode":"73b3ca0801f1eb90","toSide":"left","label":"Event"},
+		{"id":"333a738bb485dcb7","fromNode":"c81d866fc7b94424","fromSide":"right","toNode":"2dfe389dfaee7f56","toSide":"left","label":"接口IUseable"}
 	]
 }
