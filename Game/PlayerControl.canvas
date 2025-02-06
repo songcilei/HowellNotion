@@ -6,7 +6,9 @@
 		{"id":"76d2ae4d40dffcfb","x":-12,"y":120,"width":265,"height":60,"type":"text","text":"PlayerRoolCoolDownTimer"},
 		{"id":"914b4761cac69511","x":3,"y":-320,"width":250,"height":60,"type":"text","text":"MoveMentInput"},
 		{"id":"5b51a4b7f2c4e625","x":440,"y":-380,"width":250,"height":60,"type":"text","text":"Move"},
-		{"id":"dd6204b1212151b0","x":440,"y":-260,"width":250,"height":60,"type":"text","text":"Rool（yield return waitForFixedUpdate）"}
+		{"id":"dd6204b1212151b0","x":440,"y":-260,"width":250,"height":60,"type":"text","text":"Rool（yield return waitForFixedUpdate）"},
+		{"id":"08a5d77659e66b75","x":1340,"y":-40,"width":250,"height":60,"type":"text","text":"Player内的MoveEvent"},
+		{"id":"c9372d002d7cf49e","x":1720,"y":-40,"width":250,"height":60,"type":"text","text":"AnimatePlayer"}
 	],
 	"edges":[
 		{"id":"5d2e07cfe2e5f848","fromNode":"02d97782ac9ff42e","fromSide":"right","toNode":"914b4761cac69511","toSide":"left"},
@@ -14,6 +16,9 @@
 		{"id":"a573efa777e20dac","fromNode":"02d97782ac9ff42e","fromSide":"right","toNode":"c81d866fc7b94424","toSide":"left"},
 		{"id":"989fcdc72eeb9d14","fromNode":"02d97782ac9ff42e","fromSide":"right","toNode":"76d2ae4d40dffcfb","toSide":"left"},
 		{"id":"794df6c0e67ca474","fromNode":"914b4761cac69511","fromSide":"right","toNode":"5b51a4b7f2c4e625","toSide":"left"},
-		{"id":"deab59e8ae6af309","fromNode":"914b4761cac69511","fromSide":"right","toNode":"dd6204b1212151b0","toSide":"left"}
+		{"id":"deab59e8ae6af309","fromNode":"914b4761cac69511","fromSide":"right","toNode":"dd6204b1212151b0","toSide":"left"},
+		{"id":"ffffbe8a8db59bd4","fromNode":"5b51a4b7f2c4e625","fromSide":"right","toNode":"08a5d77659e66b75","toSide":"left"},
+		{"id":"98a826194bf8290d","fromNode":"08a5d77659e66b75","fromSide":"right","toNode":"c9372d002d7cf49e","toSide":"left"},
+		{"id":"a8a6c0aa2016afa9","fromNode":"dd6204b1212151b0","fromSide":"right","toNode":"08a5d77659e66b75","toSide":"left"}
 	]
 }
