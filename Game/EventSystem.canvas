@@ -1,0 +1,14 @@
+{
+	"nodes":[
+		{"id":"c771ae0eddd5969b","x":-680,"y":-780,"width":1120,"height":720,"type":"group","label":"Awake"},
+		{"id":"d5e482f7e69cd136","x":-640,"y":-366,"width":142,"height":60,"type":"text","text":"Event"},
+		{"id":"61ca1d58e6c96bd2","x":-60,"y":-420,"width":300,"height":180,"type":"text","text":"Player \n通过RequireCompone 控制脚本排序  近而控制初始化顺序"},
+		{"id":"39adbb68b77fab81","x":-660,"y":-240,"width":250,"height":110,"type":"text","text":"EventLogic\nOnEnable 添加侦听\nOnDisable 取消侦听"},
+		{"id":"a7d6ec7ec83b67f2","x":-131,"y":-680,"width":250,"height":60,"type":"text","text":"PlayerControl"}
+	],
+	"edges":[
+		{"id":"873da8d4a53067d7","fromNode":"d5e482f7e69cd136","fromSide":"right","toNode":"61ca1d58e6c96bd2","toSide":"left","label":"RequireComponent"},
+		{"id":"8972a7c5274d2317","fromNode":"a7d6ec7ec83b67f2","fromSide":"bottom","toNode":"61ca1d58e6c96bd2","toSide":"top","label":"通过Player 单例调用事件"},
+		{"id":"800e1f41ecb333ab","fromNode":"39adbb68b77fab81","fromSide":"right","toNode":"61ca1d58e6c96bd2","toSide":"bottom","label":"RequireComponent"}
+	]
+}
