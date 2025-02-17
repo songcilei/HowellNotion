@@ -45,17 +45,14 @@
             "id": "b5a80ed26e6e3851",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Game/EventSystem.canvas",
-                "viewState": {
-                  "x": 173.5,
-                  "y": -446,
-                  "zoom": 0
-                }
+                "file": "Game/weapon.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "EventSystem"
+              "icon": "lucide-file",
+              "title": "weapon"
             }
           }
         ],
@@ -132,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Game/EventSystem.canvas",
+                "file": "Game/weapon.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +139,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "EventSystem 的反向链接列表"
+              "title": "weapon 的反向链接列表"
             }
           },
           {
@@ -208,9 +205,9 @@
   },
   "active": "b5a80ed26e6e3851",
   "lastOpenFiles": [
-    "Game/PlayerControl.canvas",
-    "Game/EventSystem.canvas",
     "Game/Player.canvas",
+    "Game/EventSystem.canvas",
+    "Game/PlayerControl.canvas",
     "未命名 1.canvas",
     "未命名.md",
     "Game/weapon相关.canvas",
