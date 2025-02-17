@@ -45,14 +45,17 @@
             "id": "b5a80ed26e6e3851",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Game/weapon.md",
-                "mode": "source",
-                "source": false
+                "file": "Game/weapon相关.canvas",
+                "viewState": {
+                  "x": 1769.8107614255116,
+                  "y": -568.9267478381838,
+                  "zoom": 0.8112563597399316
+                }
               },
-              "icon": "lucide-file",
-              "title": "weapon"
+              "icon": "lucide-layout-dashboard",
+              "title": "weapon相关"
             }
           }
         ],
@@ -129,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Game/weapon.md",
+                "file": "Game/weapon相关.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +142,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "weapon 的反向链接列表"
+              "title": "weapon相关 的反向链接列表"
             }
           },
           {
@@ -205,6 +208,7 @@
   },
   "active": "b5a80ed26e6e3851",
   "lastOpenFiles": [
+    "Game/weapon.md",
     "Game/Player.canvas",
     "Game/EventSystem.canvas",
     "Game/PlayerControl.canvas",
@@ -213,7 +217,6 @@
     "Game/weapon相关.canvas",
     "Game/Detail/MoveToPosition.md",
     "Game/Detail",
-    "Game/weapon.md",
     "Game/DungeonBuild.canvas",
     "Game",
     "Blender fbx导出设置.md",
