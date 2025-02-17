@@ -17,7 +17,13 @@
 		{"id":"ed8565d36e05b580","x":1100,"y":-289,"width":250,"height":123,"type":"text","text":"name\nweaponSprite\nWeaponShootPosition"},
 		{"id":"9f23a1650823ddbd","x":1100,"y":-140,"width":250,"height":60,"type":"text","text":"SoundEffectSO(Fire)"},
 		{"id":"a9aeda42fdf2e42b","type":"text","text":"SoundEffectSO(Reload)","x":1100,"y":-60,"width":250,"height":60},
-		{"id":"e3d723701c2682e7","x":1100,"y":-820,"width":250,"height":60,"type":"text","text":"Ammo"}
+		{"id":"e3d723701c2682e7","x":1100,"y":-820,"width":250,"height":60,"type":"text","text":"Ammo"},
+		{"id":"37a87023d3ab3c13","x":1976,"y":-599,"width":250,"height":60,"type":"text","text":"Player=>Initialize"},
+		{"id":"9bb1cd37cbe48949","x":2320,"y":-599,"width":250,"height":60,"type":"text","text":"CreatePlayerStartingWeapons"},
+		{"id":"5b513a23826b08df","x":2620,"y":-598,"width":250,"height":60,"type":"text","text":"new Weapon() =>Event"},
+		{"id":"e62326cd91d41cfa","x":3000,"y":-596,"width":271,"height":60,"type":"text","text":"CallSetActiveWeaponEvent"},
+		{"id":"6f5cd58b1c1f0baf","x":3423,"y":-595,"width":250,"height":60,"type":"text","text":"ActiveWeapon.cs"},
+		{"id":"59a4d4aa459e5c6a","x":3742,"y":-597,"width":250,"height":60,"type":"text","text":"SetWeapon(Weapon weapon)"}
 	],
 	"edges":[
 		{"id":"acfef57d249bf99a","fromNode":"e08e324096041e87","fromSide":"right","toNode":"f2e1e6e8190a16ce","toSide":"left"},
@@ -38,6 +44,11 @@
 		{"id":"f1bb69173dae65f7","fromNode":"9f23a1650823ddbd","fromSide":"right","toNode":"6d92382f60a96b76","toSide":"left"},
 		{"id":"9c72ba0624d47c8c","fromNode":"a9aeda42fdf2e42b","fromSide":"right","toNode":"6d92382f60a96b76","toSide":"left"},
 		{"id":"4b5b18111364ade8","fromNode":"e3d723701c2682e7","fromSide":"bottom","toNode":"46cd7949c47f8794","toSide":"top","label":"Prefab"},
-		{"id":"f821ac751a0ed101","fromNode":"788faa92c4d194b5","fromSide":"bottom","toNode":"f2e1e6e8190a16ce","toSide":"top","label":"CurrenWeapon"}
+		{"id":"f821ac751a0ed101","fromNode":"788faa92c4d194b5","fromSide":"bottom","toNode":"f2e1e6e8190a16ce","toSide":"top","label":"CurrenWeapon"},
+		{"id":"878e71a190d8cf23","fromNode":"37a87023d3ab3c13","fromSide":"right","toNode":"9bb1cd37cbe48949","toSide":"left"},
+		{"id":"537c2cbdf76821f7","fromNode":"9bb1cd37cbe48949","fromSide":"right","toNode":"5b513a23826b08df","toSide":"left"},
+		{"id":"9855cf8b242eef8f","fromNode":"5b513a23826b08df","fromSide":"right","toNode":"e62326cd91d41cfa","toSide":"left","label":"Event"},
+		{"id":"dca59c083b45b23b","fromNode":"e62326cd91d41cfa","fromSide":"right","toNode":"6f5cd58b1c1f0baf","toSide":"left","label":"CS"},
+		{"id":"99b1301affd08910","fromNode":"6f5cd58b1c1f0baf","fromSide":"right","toNode":"59a4d4aa459e5c6a","toSide":"left"}
 	]
 }
