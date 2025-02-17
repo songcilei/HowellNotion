@@ -30,7 +30,8 @@
 		{"id":"fde419e54f9b2fc1","x":2380,"y":-1040,"width":250,"height":60,"type":"text","text":"WeaponPreCharge"},
 		{"id":"abc08b532f4fdc3a","x":2380,"y":-940,"width":250,"height":60,"type":"text","text":"FireAmmo"},
 		{"id":"becae8006509c322","x":2380,"y":-860,"width":250,"height":60,"type":"text","text":"ResetCoolDownTimer"},
-		{"id":"7f8319ee0069e071","x":2380,"y":-780,"width":250,"height":60,"type":"text","text":"ResetPrechargeTimer"}
+		{"id":"7f8319ee0069e071","x":2380,"y":-780,"width":250,"height":60,"type":"text","text":"ResetPrechargeTimer"},
+		{"id":"929d0d46890703c6","x":3060,"y":-940,"width":250,"height":60,"type":"text","text":"InitAmmo"}
 	],
 	"edges":[
 		{"id":"acfef57d249bf99a","fromNode":"e08e324096041e87","fromSide":"right","toNode":"f2e1e6e8190a16ce","toSide":"left"},
@@ -62,6 +63,7 @@
 		{"id":"e093e1deb7064dba","fromNode":"c14c9c95c0d06947","fromSide":"right","toNode":"fde419e54f9b2fc1","toSide":"left"},
 		{"id":"484a8afa022c9dcb","fromNode":"c14c9c95c0d06947","fromSide":"right","toNode":"abc08b532f4fdc3a","toSide":"left"},
 		{"id":"5a7b74cb7509c556","fromNode":"c14c9c95c0d06947","fromSide":"right","toNode":"becae8006509c322","toSide":"left"},
-		{"id":"565b9acae8bd19ec","fromNode":"c14c9c95c0d06947","fromSide":"right","toNode":"7f8319ee0069e071","toSide":"left"}
+		{"id":"565b9acae8bd19ec","fromNode":"c14c9c95c0d06947","fromSide":"right","toNode":"7f8319ee0069e071","toSide":"left"},
+		{"id":"2e7629d469ce110d","fromNode":"abc08b532f4fdc3a","fromSide":"right","toNode":"929d0d46890703c6","toSide":"left","label":"每次接收到FireEvent时"}
 	]
 }
