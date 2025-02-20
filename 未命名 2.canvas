@@ -7,7 +7,16 @@
 		{"id":"f791ca7d7cfde5ce","x":-114,"y":-793,"width":250,"height":60,"type":"text","text":"PlayDungeonLevel(level)"},
 		{"id":"21669e9f1ea23538","x":-640,"y":-793,"width":250,"height":60,"type":"text","text":"GameManager"},
 		{"id":"fb2a0f50649644dd","x":220,"y":-793,"width":250,"height":60,"type":"text","text":"BungeonBuilder.Instance.GenerateDungeon()"},
-		{"id":"b0ead63bd3564cca","x":200,"y":-1000,"width":250,"height":60,"type":"text","text":"roomNodeTypeList"}
+		{"id":"b0ead63bd3564cca","x":200,"y":-1000,"width":250,"height":60,"type":"text","text":"roomNodeTypeList"},
+		{"id":"fb5c5cb90823a8bd","x":-1719,"y":-482,"width":250,"height":60,"type":"text","text":"Prefab\n"},
+		{"id":"0446f170b43229ba","x":-1719,"y":-391,"width":250,"height":60,"type":"text","text":"RoomNodeType"},
+		{"id":"4f518b989fdc3850","x":-1719,"y":-301,"width":250,"height":60,"type":"text","text":"LowerBounds  "},
+		{"id":"89f15d45aa9feb91","x":-1719,"y":-211,"width":250,"height":60,"type":"text","text":"Upper Bounds"},
+		{"id":"ee032a90dd4ecb33","x":-1719,"y":-120,"width":250,"height":60,"type":"text","text":"Doorway List"},
+		{"id":"fa86dd8e257809b1","x":-1719,"y":-20,"width":250,"height":60,"type":"text","text":"SpawnPositionArray 出生点"},
+		{"id":"90854a7e324d7e1e","x":-1719,"y":60,"width":250,"height":60,"type":"text","text":"Enemies ByLevelList 敌人列表"},
+		{"id":"ad3e614bcaf56e0d","x":-1719,"y":160,"width":250,"height":60,"type":"text","text":"RoomEnemySpawnParameters List  "},
+		{"id":"a3b3f785e114e02f","x":-1125,"y":130,"width":250,"height":60,"type":"text","text":"List\\<RoomNodeSO>"}
 	],
 	"edges":[
 		{"id":"2ebf6e5a8c74d522","fromNode":"51ba6baed4b7c800","fromSide":"right","toNode":"e841c7f852d6f83c","toSide":"left"},
@@ -16,6 +25,15 @@
 		{"id":"b2976295bd8a644d","fromNode":"21669e9f1ea23538","fromSide":"right","toNode":"f791ca7d7cfde5ce","toSide":"left","label":"GameStarted"},
 		{"id":"80b3263d4da68d8e","fromNode":"f791ca7d7cfde5ce","fromSide":"right","toNode":"fb2a0f50649644dd","toSide":"left"},
 		{"id":"bfc6d62ac94c673c","fromNode":"b0ead63bd3564cca","fromSide":"bottom","toNode":"fb2a0f50649644dd","toSide":"top"},
-		{"id":"70698b41d6d693b3","fromNode":"e841c7f852d6f83c","fromSide":"right","toNode":"fb2a0f50649644dd","toSide":"bottom"}
+		{"id":"70698b41d6d693b3","fromNode":"e841c7f852d6f83c","fromSide":"right","toNode":"fb2a0f50649644dd","toSide":"bottom"},
+		{"id":"1cac5a14f37d0ed5","fromNode":"fb5c5cb90823a8bd","fromSide":"right","toNode":"7b600f73a428b645","toSide":"left"},
+		{"id":"70854c323704d7df","fromNode":"0446f170b43229ba","fromSide":"right","toNode":"7b600f73a428b645","toSide":"left"},
+		{"id":"4677c3ba57dff109","fromNode":"4f518b989fdc3850","fromSide":"right","toNode":"7b600f73a428b645","toSide":"left"},
+		{"id":"97706d5984d0dccb","fromNode":"89f15d45aa9feb91","fromSide":"right","toNode":"7b600f73a428b645","toSide":"left"},
+		{"id":"62b788894b1ceb29","fromNode":"ee032a90dd4ecb33","fromSide":"right","toNode":"7b600f73a428b645","toSide":"left"},
+		{"id":"9611496bda5fbf5e","fromNode":"fa86dd8e257809b1","fromSide":"right","toNode":"7b600f73a428b645","toSide":"left"},
+		{"id":"d5c814221a7c238f","fromNode":"90854a7e324d7e1e","fromSide":"right","toNode":"7b600f73a428b645","toSide":"left"},
+		{"id":"a2fdb0ac784c6080","fromNode":"ad3e614bcaf56e0d","fromSide":"right","toNode":"7b600f73a428b645","toSide":"left"},
+		{"id":"9ec19779efb9fbec","fromNode":"a3b3f785e114e02f","fromSide":"top","toNode":"51ba6baed4b7c800","toSide":"bottom"}
 	]
 }
