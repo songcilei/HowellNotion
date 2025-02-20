@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"e841c7f852d6f83c","x":-463,"y":-301,"width":250,"height":60,"type":"text","text":"DungeonLevelSO"},
+		{"id":"51ba6baed4b7c800","x":-1020,"y":-241,"width":290,"height":60,"type":"text","text":"List\\<RoomNodeGraphSO>"},
+		{"id":"7b600f73a428b645","type":"text","text":"List\\<RoomTempLateSO>","x":-1020,"y":-361,"width":290,"height":60},
+		{"id":"dba33c9e3f2c7dad","x":-1020,"y":-480,"width":250,"height":60,"type":"text","text":"LevelName"},
+		{"id":"f791ca7d7cfde5ce","x":-114,"y":-793,"width":250,"height":60,"type":"text","text":"PlayDungeonLevel(level)"},
+		{"id":"21669e9f1ea23538","x":-640,"y":-793,"width":250,"height":60,"type":"text","text":"GameManager"},
+		{"id":"fb2a0f50649644dd","x":220,"y":-793,"width":250,"height":60,"type":"text","text":"BungeonBuilder.Instance.GenerateDungeon()"},
+		{"id":"b0ead63bd3564cca","x":200,"y":-1000,"width":250,"height":60,"type":"text","text":"roomNodeTypeList"}
+	],
+	"edges":[
+		{"id":"2ebf6e5a8c74d522","fromNode":"51ba6baed4b7c800","fromSide":"right","toNode":"e841c7f852d6f83c","toSide":"left"},
+		{"id":"b6abb16dfd4d2c6e","fromNode":"7b600f73a428b645","fromSide":"right","toNode":"e841c7f852d6f83c","toSide":"left"},
+		{"id":"443241676d0bfaa1","fromNode":"dba33c9e3f2c7dad","fromSide":"right","toNode":"e841c7f852d6f83c","toSide":"left"},
+		{"id":"b2976295bd8a644d","fromNode":"21669e9f1ea23538","fromSide":"right","toNode":"f791ca7d7cfde5ce","toSide":"left","label":"GameStarted"},
+		{"id":"80b3263d4da68d8e","fromNode":"f791ca7d7cfde5ce","fromSide":"right","toNode":"fb2a0f50649644dd","toSide":"left"},
+		{"id":"bfc6d62ac94c673c","fromNode":"b0ead63bd3564cca","fromSide":"bottom","toNode":"fb2a0f50649644dd","toSide":"top"},
+		{"id":"70698b41d6d693b3","fromNode":"e841c7f852d6f83c","fromSide":"right","toNode":"fb2a0f50649644dd","toSide":"bottom"}
+	]
+}
