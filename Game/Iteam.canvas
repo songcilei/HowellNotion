@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"88547aa445db1e20","x":-453,"y":-189,"width":278,"height":60,"type":"text","text":"IUseable  接口\nvoidUseItem 使用物品方法"},
+		{"id":"4ab46d4b42fac138","x":-874,"y":-189,"width":250,"height":60,"type":"text","text":"PlayerControl.cs"},
+		{"id":"ba34b50518605488","x":-624,"y":16,"width":250,"height":60,"type":"text","text":"Chest.cs"},
+		{"id":"4935b925f233b40c","x":-240,"y":16,"width":250,"height":60,"type":"text","text":"Table.cs"},
+		{"id":"ff378c7620bc4cf1","x":-631,"y":219,"width":250,"height":101,"type":"text","text":"内置状态机  分为 多种状态\n会根据一些三方信息去通过状态机创建不同的物品"},
+		{"id":"56fd29104767ad58","x":-240,"y":224,"width":772,"height":91,"type":"text","text":"bounds.ClosestPoint(GameManager.Instance.GetPlayer().GetPlayerPosition());\n可以计算玩家 离AABB包围盒最近的点"}
+	],
+	"edges":[
+		{"id":"c6c7f1a1ef71c7fa","fromNode":"88547aa445db1e20","fromSide":"bottom","toNode":"ba34b50518605488","toSide":"top","label":"调用内置方法"},
+		{"id":"9b11b18e88103dcb","fromNode":"88547aa445db1e20","fromSide":"bottom","toNode":"4935b925f233b40c","toSide":"top","label":"调用内置方法"},
+		{"id":"e56f6218caef1efd","fromNode":"4ab46d4b42fac138","fromSide":"right","toNode":"88547aa445db1e20","toSide":"left","label":"获取接口"},
+		{"id":"e6c7a989efaf3bef","fromNode":"ba34b50518605488","fromSide":"bottom","toNode":"ff378c7620bc4cf1","toSide":"top"},
+		{"id":"d8cb7bfd4d9f2449","fromNode":"4935b925f233b40c","fromSide":"bottom","toNode":"56fd29104767ad58","toSide":"top"}
+	]
+}
