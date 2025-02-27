@@ -25,6 +25,18 @@
             }
           },
           {
+            "id": "3d12818d3b60dfbd",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.7"
+            }
+          },
+          {
             "id": "f6098738cccebae0",
             "type": "leaf",
             "state": {
@@ -58,7 +70,8 @@
               "title": "PlayerControl"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -131,7 +144,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "未命名 2.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +153,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "未命名 2 的反向链接列表"
+              "title": "反向链接"
             }
           },
           {
@@ -205,7 +217,7 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "977f58be5b0551b2",
+  "active": "3d12818d3b60dfbd",
   "lastOpenFiles": [
     "Game/weapon相关.canvas",
     "未命名 2.canvas",
