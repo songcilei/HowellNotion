@@ -3,11 +3,18 @@
 		{"id":"7b34abab7bab56fa","x":-240,"y":-132,"width":250,"height":61,"type":"text","text":"GameMonoUpdater.cs\nevent接口"},
 		{"id":"b33dd8c21d0c3807","x":-893,"y":-131,"width":310,"height":60,"type":"text","text":"CanUseMonoUpdaterExtension.cs"},
 		{"id":"7b7c9986c466bfda","x":-863,"y":-340,"width":250,"height":60,"type":"text","text":"ICanUseGameMonoUpdater.cs"},
-		{"id":"588c8386a85dfb5a","x":-1420,"y":-136,"width":190,"height":71,"type":"text","text":"EasyInteractive"}
+		{"id":"0eb055275092c674","x":-1450,"y":-460,"width":250,"height":60,"type":"text","text":"InteractCaseAttribute.cs\n这个是AttributeUsage 自定义特性 类"},
+		{"id":"588c8386a85dfb5a","x":-1420,"y":-126,"width":190,"height":50,"type":"text","text":"EasyInteractive"},
+		{"id":"ce2a0443f14e44d7","x":-2012,"y":-542,"width":250,"height":60,"type":"text","text":"DragToScene.cs"},
+		{"id":"11a970e0344eccea","x":-2012,"y":-380,"width":250,"height":60,"type":"text","text":""}
 	],
 	"edges":[
 		{"id":"7a000f79fd16cb34","fromNode":"b33dd8c21d0c3807","fromSide":"right","toNode":"7b34abab7bab56fa","toSide":"left"},
 		{"id":"d098d706ef96dd6e","fromNode":"7b7c9986c466bfda","fromSide":"bottom","toNode":"b33dd8c21d0c3807","toSide":"top"},
-		{"id":"7c4d5062f1c16700","fromNode":"588c8386a85dfb5a","fromSide":"right","toNode":"b33dd8c21d0c3807","toSide":"left"}
+		{"id":"7c4d5062f1c16700","fromNode":"588c8386a85dfb5a","fromSide":"right","toNode":"b33dd8c21d0c3807","toSide":"left"},
+		{"id":"35f94f3bbb44bfe9","fromNode":"588c8386a85dfb5a","fromSide":"top","toNode":"0eb055275092c674","toSide":"bottom","label":"EasyInteractive是InteractCaseAttribute的工具类"},
+		{"id":"6357cbfc58a4d66d","fromNode":"0eb055275092c674","fromSide":"bottom","toNode":"588c8386a85dfb5a","toSide":"top"},
+		{"id":"bd2c1e226bd735b9","fromNode":"0eb055275092c674","fromSide":"left","toNode":"ce2a0443f14e44d7","toSide":"right"},
+		{"id":"1c69787a8e72f910","fromNode":"0eb055275092c674","fromSide":"left","toNode":"11a970e0344eccea","toSide":"right"}
 	]
 }
