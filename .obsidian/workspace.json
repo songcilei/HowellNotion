@@ -32,8 +32,8 @@
               "state": {
                 "file": "Game/DragInstersect.canvas",
                 "viewState": {
-                  "x": 0,
-                  "y": 0,
+                  "x": -408,
+                  "y": -256,
                   "zoom": 0
                 }
               },
@@ -223,7 +223,7 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "4d647abf8d4114e7",
+  "active": "3d12818d3b60dfbd",
   "lastOpenFiles": [
     "Game/Iteam.canvas",
     "Game/DragInstersect.canvas",
