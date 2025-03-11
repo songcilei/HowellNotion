@@ -6,7 +6,19 @@
 		{"id":"0eb055275092c674","x":-1450,"y":-460,"width":250,"height":60,"type":"text","text":"InteractCaseAttribute.cs\n这个是AttributeUsage 自定义特性 类"},
 		{"id":"588c8386a85dfb5a","x":-1420,"y":-126,"width":190,"height":50,"type":"text","text":"EasyInteractive"},
 		{"id":"ce2a0443f14e44d7","x":-2012,"y":-542,"width":250,"height":60,"type":"text","text":"DragToScene.cs"},
-		{"id":"11a970e0344eccea","x":-2012,"y":-380,"width":250,"height":60,"type":"text","text":"DragToUI.cs"}
+		{"id":"11a970e0344eccea","x":-2012,"y":-380,"width":250,"height":60,"type":"text","text":"DragToUI.cs"},
+		{"id":"5493f2bf9670e4f7","x":-1803,"y":-1164,"width":250,"height":60,"type":"text","text":"IInteractCase"},
+		{"id":"a637308ef8b032df","x":-1803,"y":-1020,"width":250,"height":60,"type":"text","text":"AbstractInteractCase"},
+		{"id":"59292b4754c9f40d","x":-1440,"y":-1164,"width":250,"height":60,"type":"text","text":"DragSubjectFocusTargetInteractCase"},
+		{"id":"5e065042605473f2","x":-1440,"y":-1050,"width":250,"height":60,"type":"text","text":"DragToScene"},
+		{"id":"ca514f80017318cb","x":-1440,"y":-940,"width":250,"height":60,"type":"text","text":"DragToUI"},
+		{"id":"0a896e3e77c24a14","x":-1480,"y":-1480,"width":165,"height":60,"type":"text","text":"IFocusable"},
+		{"id":"04a8381b50234ce4","x":-1880,"y":-1480,"width":250,"height":60,"type":"text","text":"IInteractable"},
+		{"id":"57fb14fea90f05ee","x":-1060,"y":-1475,"width":250,"height":55,"type":"text","text":"Table"},
+		{"id":"7407b194f384c0b6","x":-1060,"y":-1590,"width":250,"height":60,"type":"text","text":"IDragable"},
+		{"id":"4f44aaeb3324fcd0","x":-1060,"y":-1360,"width":250,"height":60,"type":"text","text":"ISelectable"},
+		{"id":"3b137cec9976438d","x":-620,"y":-1585,"width":250,"height":50,"type":"text","text":"UIItem"},
+		{"id":"530c7fdbff2988a4","x":-620,"y":-1680,"width":250,"height":60,"type":"text","text":"SceneItem"}
 	],
 	"edges":[
 		{"id":"7a000f79fd16cb34","fromNode":"b33dd8c21d0c3807","fromSide":"right","toNode":"7b34abab7bab56fa","toSide":"left"},
@@ -15,6 +27,16 @@
 		{"id":"35f94f3bbb44bfe9","fromNode":"588c8386a85dfb5a","fromSide":"top","toNode":"0eb055275092c674","toSide":"bottom","label":"EasyInteractive是InteractCaseAttribute的工具类"},
 		{"id":"6357cbfc58a4d66d","fromNode":"0eb055275092c674","fromSide":"bottom","toNode":"588c8386a85dfb5a","toSide":"top"},
 		{"id":"bd2c1e226bd735b9","fromNode":"0eb055275092c674","fromSide":"left","toNode":"ce2a0443f14e44d7","toSide":"right","label":"Attribute"},
-		{"id":"1c69787a8e72f910","fromNode":"0eb055275092c674","fromSide":"left","toNode":"11a970e0344eccea","toSide":"right","label":"Attribute"}
+		{"id":"1c69787a8e72f910","fromNode":"0eb055275092c674","fromSide":"left","toNode":"11a970e0344eccea","toSide":"right","label":"Attribute"},
+		{"id":"4d0d766f361d3186","fromNode":"5493f2bf9670e4f7","fromSide":"bottom","toNode":"a637308ef8b032df","toSide":"top"},
+		{"id":"8946a07feba831dd","fromNode":"a637308ef8b032df","fromSide":"right","toNode":"59292b4754c9f40d","toSide":"left"},
+		{"id":"8739fe01293be53b","fromNode":"a637308ef8b032df","fromSide":"right","toNode":"5e065042605473f2","toSide":"left"},
+		{"id":"9acf4fb57f0f43d3","fromNode":"a637308ef8b032df","fromSide":"right","toNode":"ca514f80017318cb","toSide":"left"},
+		{"id":"9d508a577ea7ec06","fromNode":"04a8381b50234ce4","fromSide":"right","toNode":"0a896e3e77c24a14","toSide":"left"},
+		{"id":"540076277264148e","fromNode":"0a896e3e77c24a14","fromSide":"right","toNode":"57fb14fea90f05ee","toSide":"left"},
+		{"id":"d84eda6b78b9de18","fromNode":"7407b194f384c0b6","fromSide":"right","toNode":"530c7fdbff2988a4","toSide":"left"},
+		{"id":"599fd67b5df935f5","fromNode":"7407b194f384c0b6","fromSide":"right","toNode":"3b137cec9976438d","toSide":"left"},
+		{"id":"cacfd9b128b73d0a","fromNode":"0a896e3e77c24a14","fromSide":"right","toNode":"7407b194f384c0b6","toSide":"left"},
+		{"id":"f7ee0039f312773e","fromNode":"0a896e3e77c24a14","fromSide":"right","toNode":"4f44aaeb3324fcd0","toSide":"left"}
 	]
 }
