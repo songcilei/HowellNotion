@@ -1,24 +1,27 @@
 {
 	"nodes":[
-		{"id":"7b34abab7bab56fa","x":-240,"y":-132,"width":250,"height":61,"type":"text","text":"GameMonoUpdater.cs\nevent接口"},
-		{"id":"b33dd8c21d0c3807","x":-893,"y":-131,"width":310,"height":60,"type":"text","text":"CanUseMonoUpdaterExtension.cs"},
-		{"id":"7b7c9986c466bfda","x":-863,"y":-340,"width":250,"height":60,"type":"text","text":"ICanUseGameMonoUpdater.cs"},
-		{"id":"0eb055275092c674","x":-1450,"y":-460,"width":250,"height":60,"type":"text","text":"InteractCaseAttribute.cs\n这个是AttributeUsage 自定义特性 类"},
-		{"id":"588c8386a85dfb5a","x":-1420,"y":-126,"width":190,"height":50,"type":"text","text":"EasyInteractive"},
-		{"id":"ce2a0443f14e44d7","x":-2012,"y":-542,"width":250,"height":60,"type":"text","text":"DragToScene.cs"},
-		{"id":"11a970e0344eccea","x":-2012,"y":-380,"width":250,"height":60,"type":"text","text":"DragToUI.cs"},
-		{"id":"5493f2bf9670e4f7","x":-1803,"y":-1164,"width":250,"height":60,"type":"text","text":"IInteractCase"},
-		{"id":"a637308ef8b032df","x":-1803,"y":-1020,"width":250,"height":60,"type":"text","text":"AbstractInteractCase"},
-		{"id":"59292b4754c9f40d","x":-1440,"y":-1164,"width":250,"height":60,"type":"text","text":"DragSubjectFocusTargetInteractCase"},
-		{"id":"5e065042605473f2","x":-1440,"y":-1050,"width":250,"height":60,"type":"text","text":"DragToScene"},
-		{"id":"ca514f80017318cb","x":-1440,"y":-940,"width":250,"height":60,"type":"text","text":"DragToUI"},
-		{"id":"0a896e3e77c24a14","x":-1480,"y":-1480,"width":165,"height":60,"type":"text","text":"IFocusable"},
-		{"id":"04a8381b50234ce4","x":-1880,"y":-1480,"width":250,"height":60,"type":"text","text":"IInteractable"},
-		{"id":"57fb14fea90f05ee","x":-1060,"y":-1475,"width":250,"height":55,"type":"text","text":"Table"},
-		{"id":"7407b194f384c0b6","x":-1060,"y":-1590,"width":250,"height":60,"type":"text","text":"IDragable"},
-		{"id":"4f44aaeb3324fcd0","x":-1060,"y":-1360,"width":250,"height":60,"type":"text","text":"ISelectable"},
-		{"id":"3b137cec9976438d","x":-620,"y":-1585,"width":250,"height":50,"type":"text","text":"UIItem"},
-		{"id":"530c7fdbff2988a4","x":-620,"y":-1680,"width":250,"height":60,"type":"text","text":"SceneItem"}
+		{"id":"203f6bc985af1d24","x":-2032,"y":-562,"width":2062,"height":511,"type":"group","label":"Attributte"},
+		{"id":"b06bf45a78ca8641","type":"group","x":-3083,"y":-1780,"width":1550,"height":420,"label":"Interface"},
+		{"id":"944cb678ded446c3","type":"group","x":-1823,"y":-1184,"width":653,"height":324,"label":"Logic"},
+		{"id":"7b34abab7bab56fa","type":"text","text":"GameMonoUpdater.cs\nevent接口","x":-240,"y":-132,"width":250,"height":61},
+		{"id":"b33dd8c21d0c3807","type":"text","text":"CanUseMonoUpdaterExtension.cs","x":-893,"y":-131,"width":310,"height":60},
+		{"id":"7b7c9986c466bfda","type":"text","text":"ICanUseGameMonoUpdater.cs","x":-863,"y":-340,"width":250,"height":60},
+		{"id":"0eb055275092c674","type":"text","text":"InteractCaseAttribute.cs\n这个是AttributeUsage 自定义特性 类","x":-1450,"y":-460,"width":250,"height":60},
+		{"id":"588c8386a85dfb5a","type":"text","text":"EasyInteractive","x":-1420,"y":-126,"width":190,"height":50},
+		{"id":"ce2a0443f14e44d7","type":"text","text":"DragToScene.cs","x":-2012,"y":-542,"width":250,"height":60},
+		{"id":"11a970e0344eccea","type":"text","text":"DragToUI.cs","x":-2012,"y":-380,"width":250,"height":60},
+		{"id":"5493f2bf9670e4f7","type":"text","text":"IInteractCase","x":-1803,"y":-1164,"width":250,"height":60},
+		{"id":"a637308ef8b032df","type":"text","text":"AbstractInteractCase","x":-1803,"y":-1020,"width":250,"height":60},
+		{"id":"59292b4754c9f40d","type":"text","text":"DragSubjectFocusTargetInteractCase","x":-1440,"y":-1164,"width":250,"height":60},
+		{"id":"5e065042605473f2","type":"text","text":"DragToScene","x":-1440,"y":-1050,"width":250,"height":60},
+		{"id":"ca514f80017318cb","type":"text","text":"DragToUI","x":-1440,"y":-940,"width":250,"height":60},
+		{"id":"7407b194f384c0b6","type":"text","text":"IDragable","x":-2243,"y":-1670,"width":250,"height":60},
+		{"id":"4f44aaeb3324fcd0","type":"text","text":"ISelectable","x":-2243,"y":-1440,"width":250,"height":60},
+		{"id":"0a896e3e77c24a14","type":"text","text":"IFocusable","x":-2663,"y":-1560,"width":165,"height":60},
+		{"id":"57fb14fea90f05ee","type":"text","text":"Table","x":-2243,"y":-1555,"width":250,"height":55},
+		{"id":"3b137cec9976438d","type":"text","text":"UIItem","x":-1803,"y":-1665,"width":250,"height":50},
+		{"id":"530c7fdbff2988a4","type":"text","text":"SceneItem","x":-1803,"y":-1760,"width":250,"height":60},
+		{"id":"04a8381b50234ce4","type":"text","text":"IInteractable","x":-3063,"y":-1560,"width":250,"height":60}
 	],
 	"edges":[
 		{"id":"7a000f79fd16cb34","fromNode":"b33dd8c21d0c3807","fromSide":"right","toNode":"7b34abab7bab56fa","toSide":"left"},
@@ -37,6 +40,10 @@
 		{"id":"d84eda6b78b9de18","fromNode":"7407b194f384c0b6","fromSide":"right","toNode":"530c7fdbff2988a4","toSide":"left"},
 		{"id":"599fd67b5df935f5","fromNode":"7407b194f384c0b6","fromSide":"right","toNode":"3b137cec9976438d","toSide":"left"},
 		{"id":"cacfd9b128b73d0a","fromNode":"0a896e3e77c24a14","fromSide":"right","toNode":"7407b194f384c0b6","toSide":"left"},
-		{"id":"f7ee0039f312773e","fromNode":"0a896e3e77c24a14","fromSide":"right","toNode":"4f44aaeb3324fcd0","toSide":"left"}
+		{"id":"f7ee0039f312773e","fromNode":"0a896e3e77c24a14","fromSide":"right","toNode":"4f44aaeb3324fcd0","toSide":"left"},
+		{"id":"0ea9e5e89db48152","fromNode":"3b137cec9976438d","fromSide":"bottom","toNode":"59292b4754c9f40d","toSide":"top"},
+		{"id":"8bde91da21a5af7c","fromNode":"530c7fdbff2988a4","fromSide":"right","toNode":"59292b4754c9f40d","toSide":"top"},
+		{"id":"cf3293a69ddeb076","fromNode":"530c7fdbff2988a4","fromSide":"right","toNode":"5e065042605473f2","toSide":"right"},
+		{"id":"80762957b0f6ef4c","fromNode":"3b137cec9976438d","fromSide":"right","toNode":"5e065042605473f2","toSide":"top"}
 	]
 }
