@@ -42,6 +42,18 @@
             }
           },
           {
+            "id": "65f59bd85eacb4d4",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.9"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.9"
+            }
+          },
+          {
             "id": "f6098738cccebae0",
             "type": "leaf",
             "state": {
@@ -76,7 +88,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -149,7 +161,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Game/DragInstersect.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +170,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "DragInstersect 的反向链接列表"
+              "title": "反向链接"
             }
           },
           {
@@ -223,7 +234,7 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "3d12818d3b60dfbd",
+  "active": "65f59bd85eacb4d4",
   "lastOpenFiles": [
     "Game/Iteam.canvas",
     "Game/DragInstersect.canvas",
