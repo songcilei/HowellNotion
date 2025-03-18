@@ -45,12 +45,17 @@
             "id": "65f59bd85eacb4d4",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "canvas",
               "state": {
-                "currentVersion": "1.8.9"
+                "file": "未命名 3.canvas",
+                "viewState": {
+                  "x": -197,
+                  "y": -143,
+                  "zoom": 0
+                }
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.9"
+              "icon": "lucide-layout-dashboard",
+              "title": "未命名 3"
             }
           },
           {
@@ -161,6 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "未命名 3.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +176,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "反向链接"
+              "title": "未命名 3 的反向链接列表"
             }
           },
           {
@@ -236,23 +242,23 @@
   },
   "active": "65f59bd85eacb4d4",
   "lastOpenFiles": [
+    "Game/PlayerControl.canvas",
+    "未命名 3.canvas",
+    "未命名.md",
+    "Blender fbx导出设置.md",
+    "未命名 1.canvas",
+    "未命名.canvas",
     "Game/Iteam.canvas",
     "Game/DragInstersect.canvas",
     "Game/ITeam.md",
     "Game/weapon相关.canvas",
     "未命名 2.canvas",
-    "Game/PlayerControl.canvas",
     "Game/weapon.md",
     "Game/Player.canvas",
     "Game/EventSystem.canvas",
-    "未命名 1.canvas",
-    "未命名.md",
     "Game/Detail/MoveToPosition.md",
     "Game/Detail",
-    "Game/DungeonBuild.canvas",
     "Game",
-    "Blender fbx导出设置.md",
-    "未命名.canvas",
     "备忘录.md",
     "未命名/Pasted image 20240519170255.png",
     "未命名/Pasted image 20240519170221.png",
@@ -263,7 +269,6 @@
     "Welcome.md",
     "结构.md",
     "树 种类.md",
-    "Light.canvas",
     "kanban.md",
     "conflict-files-obsidian-git.md",
     "DungeonBuild.canvas_副本",

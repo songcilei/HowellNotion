@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"d45655b2291a55d2","x":-145,"y":-159,"width":205,"height":99,"type":"text","text":"TileDataSO\n唯一ID\n"},
+		{"id":"a7554a2e3dc97ee4","x":-465,"y":-266,"width":250,"height":60,"type":"text","text":"白模"},
+		{"id":"7d23433ef449d151","x":-465,"y":-20,"width":250,"height":60,"type":"text","text":"Prefab"},
+		{"id":"a0fbe5c81c14c3e8","x":200,"y":-139,"width":250,"height":60,"type":"text","text":"壳"},
+		{"id":"a99770e6dabfb3b0","x":200,"y":60,"width":250,"height":60,"type":"text","text":"测试使用"},
+		{"id":"58727a9ec3eda30a","x":-680,"y":-139,"width":250,"height":60,"type":"text","text":"美术提供"}
+	],
+	"edges":[
+		{"id":"5c702e446ef3d6aa","fromNode":"7d23433ef449d151","fromSide":"right","toNode":"d45655b2291a55d2","toSide":"bottom"},
+		{"id":"a0a7d5726b54342c","fromNode":"a7554a2e3dc97ee4","fromSide":"right","toNode":"d45655b2291a55d2","toSide":"top"},
+		{"id":"88cde1d9472d8421","fromNode":"d45655b2291a55d2","fromSide":"right","toNode":"a0fbe5c81c14c3e8","toSide":"left","label":"解耦配置"},
+		{"id":"0c01af5f77cb23f5","fromNode":"a7554a2e3dc97ee4","fromSide":"right","toNode":"a0fbe5c81c14c3e8","toSide":"top"},
+		{"id":"922e7a42278411c2","fromNode":"a0fbe5c81c14c3e8","fromSide":"bottom","toNode":"a99770e6dabfb3b0","toSide":"top","label":"地编器"},
+		{"id":"18e697bd9c9304b9","fromNode":"58727a9ec3eda30a","fromSide":"top","toNode":"a7554a2e3dc97ee4","toSide":"bottom"},
+		{"id":"2634142269c8038e","fromNode":"58727a9ec3eda30a","fromSide":"bottom","toNode":"7d23433ef449d151","toSide":"top"}
+	]
+}
