@@ -7,7 +7,11 @@
 		{"id":"58727a9ec3eda30a","x":-680,"y":-139,"width":250,"height":60,"type":"text","text":"美术提供"},
 		{"id":"01c360fdb90dc271","x":-167,"y":300,"width":250,"height":60,"type":"text","text":"美术地形生成"},
 		{"id":"a0fbe5c81c14c3e8","x":520,"y":-139,"width":250,"height":60,"type":"text","text":"地编"},
-		{"id":"a99770e6dabfb3b0","x":520,"y":60,"width":250,"height":60,"type":"text","text":"策划使用"}
+		{"id":"a99770e6dabfb3b0","x":520,"y":60,"width":250,"height":60,"type":"text","text":"策划使用"},
+		{"id":"7037c1fb12849680","x":-503,"y":-896,"width":250,"height":60,"type":"text","text":"路"},
+		{"id":"461e18606f8ef427","x":-114,"y":-897,"width":250,"height":60,"type":"text","text":"BlockAsset配置"},
+		{"id":"30ef2b7a54e86ba7","x":-114,"y":-740,"width":250,"height":100,"type":"text","text":"定制化需要先配置Dataasset  和白模放入固定路径"},
+		{"id":"cebe794c2830c4d6","x":340,"y":-897,"width":250,"height":60,"type":"text","text":"生成"}
 	],
 	"edges":[
 		{"id":"5c702e446ef3d6aa","fromNode":"7d23433ef449d151","fromSide":"right","toNode":"d45655b2291a55d2","toSide":"bottom"},
@@ -18,6 +22,10 @@
 		{"id":"18e697bd9c9304b9","fromNode":"58727a9ec3eda30a","fromSide":"top","toNode":"a7554a2e3dc97ee4","toSide":"bottom"},
 		{"id":"2634142269c8038e","fromNode":"58727a9ec3eda30a","fromSide":"bottom","toNode":"7d23433ef449d151","toSide":"top"},
 		{"id":"aa71f2ca33b5bdbb","fromNode":"d45655b2291a55d2","fromSide":"bottom","toNode":"01c360fdb90dc271","toSide":"top"},
-		{"id":"e6b3c425691eaf2f","fromNode":"a99770e6dabfb3b0","fromSide":"bottom","toNode":"01c360fdb90dc271","toSide":"top","label":"回传Guid\n和TransformList"}
+		{"id":"e6b3c425691eaf2f","fromNode":"a99770e6dabfb3b0","fromSide":"bottom","toNode":"01c360fdb90dc271","toSide":"top","label":"回传Guid\n和TransformList"},
+		{"id":"5c91786720281cff","fromNode":"7037c1fb12849680","fromSide":"right","toNode":"461e18606f8ef427","toSide":"left"},
+		{"id":"90fba4f104724096","fromNode":"7037c1fb12849680","fromSide":"bottom","toNode":"30ef2b7a54e86ba7","toSide":"left"},
+		{"id":"adc95af444711d15","fromNode":"30ef2b7a54e86ba7","fromSide":"top","toNode":"461e18606f8ef427","toSide":"bottom"},
+		{"id":"8d8ebd6b0974e553","fromNode":"461e18606f8ef427","fromSide":"right","toNode":"cebe794c2830c4d6","toSide":"left"}
 	]
 }
